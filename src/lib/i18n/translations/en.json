@@ -153,5 +153,568 @@
       "description": "Connect with others who are on similar journeys of reflection and action.",
       "button": "Join Our Community"
     }
+  },
+  "children": {
+    "meta": {
+      "title": "Involving Children - The Butterfly Movement",
+      "description": "Rethinking how we engage with children about their future and their role in creating positive change."
+    },
+    "hero": {
+      "title": "Involving Children in Shaping Our Future",
+      "description": "Moving beyond 'What do you want to be?' to explore how children envision their lives and their impact on the world."
+    },
+    "rethinking": {
+      "title": "Rethinking Our Approach",
+      "description": "Traditionally, we ask children what they want to be when they grow up, focusing narrowly on career paths. This emphasizes external achievements over internal fulfillment and societal impact. It's time to broaden the conversation."
+    },
+    "questions": {
+      "title": "Better Questions to Ask",
+      "life": "How do you want your life to be, now and in the future?",
+      "world": "What kind of world do you want to help create?",
+      "thrive": "How can you thrive while helping others thrive?"
+    },
+    "approaches": {
+      "title": "Key Aspects of This Approach",
+      "broader": {
+        "title": "Broader Perspective",
+        "description": "Encouraging children to see the connection between personal well-being and societal well-being, fostering empathy and global citizenship."
+      },
+      "values": {
+        "title": "Values and Purpose",
+        "description": "Shifting emphasis from roles to qualities, helping children explore what truly brings fulfillment and meaning."
+      },
+      "agency": {
+        "title": "Empowering Agency",
+        "description": "Teaching children they have the power to shape their lives and environment in meaningful ways, both now and in the future."
+      },
+      "resilience": {
+        "title": "Building Resilience",
+        "description": "Developing adaptability and mindfulness as essential skills for navigating an uncertain world."
+      }
+    },
+    "implementation": {
+      "title": "Putting It Into Practice",
+      "reflection": {
+        "title": "Integrate Reflection",
+        "description": "Include activities that encourage students to think about their values, goals, and how their actions affect others and the planet."
+      },
+      "dialogue": {
+        "title": "Encourage Dialogue",
+        "description": "Facilitate conversations between children and different generations to explore diverse life perspectives and wisdom."
+      },
+      "systems": {
+        "title": "Systems Thinking",
+        "description": "Help children understand how their choices and actions are part of larger systems, fostering responsibility and empowerment."
+      },
+      "experiential": {
+        "title": "Experiential Learning",
+        "description": "Create opportunities for real-world problem-solving and community engagement that emphasize collective thriving."
+      }
+    }
+  },
+  "issues": {
+    "meta": {
+      "title": "Global Issues - The Butterfly Movement",
+      "description": "Explore the most pressing challenges facing our world today and how they interconnect."
+    },
+    "hero": {
+      "title": "Global Issues",
+      "description": "Understanding the interconnected challenges that shape our world's future."
+    },
+    "diagram": {
+      "title": "The Interconnected Nature of Global Challenges",
+      "description": "This diagram illustrates how our major global challenges influence and reinforce each other, highlighting the need for systemic solutions.",
+      "legend": {
+        "title": "Diagram Legend",
+        "primary": "Primary Challenges",
+        "secondary": "Connected Challenges",
+        "connection": "Influences/Affects"
+      }
+    },
+    "top10": {
+      "title": "Top 10 Most Pressing Issues",
+      "climate": {
+        "title": "Climate Change and Environmental Degradation",
+        "description": "The interconnected crises of global warming, biodiversity loss, and environmental destruction that threaten Earth's life-supporting systems."
+      },
+      "inequality": {
+        "title": "Social and Economic Inequality",
+        "description": "Growing disparities in wealth, opportunities, and access to resources, undermining social stability and human potential."
+      },
+      "governance": {
+        "title": "Global Governance Crisis",
+        "description": "The lack of effective, inclusive, and adaptive global governance systems needed to address our shared challenges."
+      },
+      "technology": {
+        "title": "Technological Impact",
+        "description": "The ethical and societal implications of rapid technological advancement, from AI and automation to privacy and digital divides."
+      },
+      "population": {
+        "title": "Population Growth and Urbanization",
+        "description": "Challenges of sustainable development as cities expand and global population increases, straining resources and systems."
+      },
+      "health": {
+        "title": "Global Health and Pandemic Preparedness",
+        "description": "The need for robust health systems and international cooperation to address current and future health crises."
+      },
+      "education": {
+        "title": "Education and Knowledge Access",
+        "description": "Ensuring quality education and knowledge access for all as key drivers of sustainable development and human flourishing."
+      },
+      "conflict": {
+        "title": "Conflict and Geopolitical Instability",
+        "description": "Ongoing wars, conflicts, and geopolitical tensions that threaten peace, development, and international cooperation."
+      },
+      "water": {
+        "title": "Global Water Crisis",
+        "description": "Growing challenges in access to clean water, affecting human health, food security, and ecosystem stability."
+      },
+      "cultural": {
+        "title": "Loss of Cultural and Linguistic Diversity",
+        "description": "The rapid decline in cultural and linguistic diversity, threatening human knowledge, identity, and ways of understanding the world."
+      }
+    },
+    "extended": {
+      "title": "Additional Global Challenges",
+      "environmental": {
+        "title": "Environmental Challenges",
+        "challenges": {
+          "energy": {
+            "number": 11,
+            "title": "Energy Transition and Sustainability",
+            "description": "Addressing global reliance on fossil fuels to ensure a transition to renewable energy sources."
+          },
+          "oceans": {
+            "number": 12,
+            "title": "Ocean Health",
+            "description": "Combating overfishing, plastic pollution, and ocean acidification to protect marine ecosystems."
+          },
+          "deforestation": {
+            "number": 13,
+            "title": "Deforestation and Land Degradation",
+            "description": "Preventing habitat destruction and soil erosion to preserve biodiversity and support agriculture."
+          },
+          "air": {
+            "number": 14,
+            "title": "Air Pollution",
+            "description": "Reducing emissions and improving air quality to protect human health and the environment."
+          },
+          "waste": {
+            "number": 15,
+            "title": "Waste Management",
+            "description": "Developing effective strategies to reduce, recycle, and manage waste sustainably."
+          },
+          "soil": {
+            "number": 16,
+            "title": "Soil Fertility and Agricultural Sustainability",
+            "description": "Addressing soil degradation and promoting regenerative farming practices."
+          },
+          "freshwater": {
+            "number": 17,
+            "title": "Freshwater Ecosystem Conservation",
+            "description": "Protecting rivers, lakes, and wetlands from pollution and overuse."
+          },
+          "desertification": {
+            "number": 18,
+            "title": "Desertification",
+            "description": "Combating the spread of deserts and restoring arid ecosystems."
+          },
+          "chemicals": {
+            "number": 19,
+            "title": "Chemical Pollution",
+            "description": "Addressing the impacts of industrial chemicals and pesticides on ecosystems and human health."
+          },
+          "polar": {
+            "number": 20,
+            "title": "Polar Ecosystem Protection",
+            "description": "Protecting Arctic and Antarctic regions from melting ice, habitat loss, and resource exploitation."
+          }
+        }
+      },
+      "social": {
+        "title": "Social and Economic Challenges",
+        "challenges": {
+          "youth": {
+            "number": 21,
+            "title": "Youth Empowerment",
+            "description": "Creating opportunities for the next generation to lead and innovate."
+          },
+          "food": {
+            "number": 22,
+            "title": "Food Security",
+            "description": "Ensuring sustainable and equitable access to nutrition for a growing population."
+          },
+          "economic": {
+            "number": 23,
+            "title": "Economic Systems Reform",
+            "description": "Transforming economic models to prioritize well-being and sustainability over pure growth."
+          },
+          "migration": {
+            "number": 24,
+            "title": "Migration and Refugee Support",
+            "description": "Supporting displaced populations and creating sustainable migration policies."
+          },
+          "aging": {
+            "number": 25,
+            "title": "Aging Populations",
+            "description": "Addressing the economic and social impacts of aging demographics."
+          },
+          "basic_income": {
+            "number": 26,
+            "title": "Economic Security",
+            "description": "Exploring solutions like UBI to address poverty and economic instability."
+          },
+          "urban": {
+            "number": 27,
+            "title": "Urban Development",
+            "description": "Ensuring cities are resilient, inclusive, and sustainable."
+          },
+          "gender": {
+            "number": 28,
+            "title": "Gender Equality",
+            "description": "Advancing equity for all genders in education, employment, and social roles."
+          },
+          "healthcare": {
+            "number": 29,
+            "title": "Healthcare Access",
+            "description": "Expanding access to quality healthcare for underserved populations."
+          },
+          "mental_health": {
+            "number": 30,
+            "title": "Mental Health Support",
+            "description": "Addressing the global rise in mental health issues and providing adequate support."
+          }
+        }
+      },
+      "technological": {
+        "title": "Technological and Ethical Challenges",
+        "challenges": {
+          "cybersecurity": {
+            "number": 31,
+            "title": "Digital Security and Privacy",
+            "description": "Protecting individuals and societies from cyber threats and data exploitation."
+          },
+          "ai_ethics": {
+            "number": 32,
+            "title": "AI Ethics and Governance",
+            "description": "Ensuring AI systems are fair, transparent, and aligned with human values."
+          },
+          "biotech": {
+            "number": 33,
+            "title": "Biotechnology Ethics",
+            "description": "Balancing innovation with ethical considerations in genetic engineering and synthetic biology."
+          },
+          "space": {
+            "number": 34,
+            "title": "Space Governance",
+            "description": "Establishing frameworks for responsible space exploration and resource use."
+          },
+          "automation": {
+            "number": 35,
+            "title": "Future of Work",
+            "description": "Preparing for workforce transitions due to automation and technological change."
+          },
+          "digital_divide": {
+            "number": 36,
+            "title": "Digital Inclusion",
+            "description": "Ensuring equitable access to technology and digital opportunities."
+          },
+          "consumption": {
+            "number": 37,
+            "title": "Sustainable Consumption",
+            "description": "Promoting responsible production and consumption patterns."
+          },
+          "fintech": {
+            "number": 38,
+            "title": "Financial Technology",
+            "description": "Managing the evolution of financial systems and digital currencies."
+          },
+          "innovation": {
+            "number": 39,
+            "title": "Knowledge Access",
+            "description": "Balancing intellectual property rights with open access to innovation."
+          },
+          "media": {
+            "number": 40,
+            "title": "Media Integrity",
+            "description": "Combating misinformation and ensuring responsible journalism."
+          }
+        }
+      },
+      "governance": {
+        "title": "Governance and Political Challenges",
+        "challenges": {
+          "corruption": {
+            "number": 41,
+            "title": "Anti-Corruption",
+            "description": "Reducing corruption and improving transparency in political systems."
+          },
+          "democracy": {
+            "number": 42,
+            "title": "Democratic Resilience",
+            "description": "Strengthening democratic institutions and processes."
+          },
+          "cooperation": {
+            "number": 43,
+            "title": "Global Cooperation",
+            "description": "Reinforcing international institutions and multilateral partnerships."
+          },
+          "human_rights": {
+            "number": 44,
+            "title": "Human Rights Protection",
+            "description": "Ensuring universal respect for human rights and dignity."
+          },
+          "disarmament": {
+            "number": 45,
+            "title": "Peace and Disarmament",
+            "description": "Reducing military tensions and eliminating weapons of mass destruction."
+          },
+          "extremism": {
+            "number": 46,
+            "title": "Social Cohesion",
+            "description": "Addressing extremism and promoting inclusive dialogue."
+          },
+          "indigenous": {
+            "number": 47,
+            "title": "Indigenous Rights",
+            "description": "Protecting indigenous peoples' rights, lands, and cultural heritage."
+          },
+          "digital_governance": {
+            "number": 48,
+            "title": "Digital Governance",
+            "description": "Developing frameworks for ethical technology use and regulation."
+          },
+          "citizenship": {
+            "number": 49,
+            "title": "Global Citizenship",
+            "description": "Fostering awareness and responsibility for global challenges."
+          },
+          "resilience": {
+            "number": 50,
+            "title": "Crisis Preparedness",
+            "description": "Building systems to withstand and adapt to future challenges."
+          }
+        }
+      }
+    },
+    "common": {
+      "back_to_issues": "Back to Issues",
+      "previous_issue": "Previous",
+      "next_issue": "Next",
+      "issue": "Issue",
+      "connection_map": "How This Issue Connects",
+      "click_to_explore": "Click on any issue to explore its connections",
+      "why_pressing": "Why This Is Pressing",
+      "connections": "How This Connects",
+      "solutions": "What Can Be Done",
+      "related_issues": "Related Issues"
+    },
+    "climate-change": {
+      "short_title": "Climate Change",
+      "meta": {
+        "title": "Climate Change and Environmental Degradation",
+        "description": "Understanding the interconnected crises of climate change and environmental degradation, their impacts, and solutions."
+      },
+      "title": "Climate Change and Environmental Degradation",
+      "introduction": "The most important issue facing our planet today is the interconnected crises of climate change and environmental degradation. This issue encompasses multiple urgent challenges that threaten Earth's life-supporting systems and require immediate, coordinated global action.",
+      "key_aspects": [
+        {
+          "title": "Global Warming and Extreme Weather",
+          "description": "Rising temperatures lead to melting ice caps, rising sea levels, and increasingly severe weather patterns, such as hurricanes, droughts, and floods."
+        },
+        {
+          "title": "Loss of Biodiversity",
+          "description": "Habitat destruction, pollution, and unsustainable practices are driving species to extinction at an alarming rate, disrupting ecosystems and reducing Earth's resilience."
+        }
+      ],
+      "connections_list": [
+        "Environmental Justice: Those least responsible for environmental degradation often suffer its worst effects.",
+        "Economic Systems: Current models prioritize profit over environmental well-being.",
+        "Global Cooperation: Addressing climate change requires unprecedented international collaboration."
+      ],
+      "solutions_list": [
+        {
+          "title": "Transition to Renewable Energy",
+          "description": "Rapidly shift from fossil fuels to clean energy sources while improving energy efficiency."
+        },
+        {
+          "title": "Protect and Restore Ecosystems",
+          "description": "Implement large-scale conservation and restoration projects to preserve biodiversity and enhance carbon sinks."
+        }
+      ]
+    },
+    "inequality": {
+      "short_title": "Inequality"
+    },
+    "governance": {
+      "short_title": "Governance"
+    },
+    "technology": {
+      "short_title": "Technology"
+    },
+    "population": {
+      "short_title": "Population"
+    },
+    "health": {
+      "short_title": "Health"
+    },
+    "education": {
+      "short_title": "Education"
+    },
+    "conflict": {
+      "short_title": "Conflict"
+    },
+    "water": {
+      "short_title": "Water Crisis"
+    },
+    "cultural-diversity": {
+      "short_title": "Cultural Diversity"
+    },
+    "connections": {
+      "climate-change": {
+        "inequality": "Climate impacts disproportionately affect vulnerable populations, while economic inequality affects climate resilience.",
+        "water": "Climate change disrupts water cycles and availability, while water stress amplifies climate vulnerabilities.",
+        "population": "Population growth increases climate pressures, while climate change affects habitability and migration.",
+        "health": "Climate change impacts public health through extreme weather, diseases, and air quality."
+      },
+      "inequality": {
+        "climate-change": "Economic disparities determine climate adaptation capabilities and exposure to environmental risks.",
+        "education": "Educational access gaps perpetuate economic inequality, while poverty limits educational opportunities.",
+        "health": "Social inequalities create health disparities in access, outcomes, and resilience.",
+        "conflict": "Economic inequality fuels social tensions and conflicts, while conflicts exacerbate inequalities."
+      },
+      "governance": {
+        "conflict": "Governance failures can lead to conflicts, while conflicts undermine effective governance.",
+        "technology": "Governance frameworks shape technological development, while technology transforms governance needs.",
+        "inequality": "Governance systems influence economic inequality, while inequality affects democratic processes."
+      },
+      "technology": {
+        "education": "Technology transforms educational needs and opportunities, while education shapes technological adoption.",
+        "inequality": "Technology can both reduce and amplify social inequalities, depending on access and implementation.",
+        "governance": "Technological change creates new governance challenges and tools for better governance."
+      },
+      "population": {
+        "water": "Population growth increases water demand, while water scarcity affects population distribution.",
+        "health": "Population dynamics influence health systems, while health outcomes affect demographic trends.",
+        "climate-change": "Population growth affects environmental pressures, while climate change influences migration patterns."
+      },
+      "health": {
+        "population": "Public health shapes demographic trends, while population changes affect healthcare needs.",
+        "inequality": "Health disparities reflect and reinforce social inequalities.",
+        "climate-change": "Health systems face new challenges from climate change, while public health affects climate resilience."
+      },
+      "education": {
+        "inequality": "Education is key to reducing inequalities, while economic disparities affect educational access.",
+        "technology": "Education prepares people for technological change, while technology transforms learning.",
+        "cultural-diversity": "Education can preserve or erode cultural diversity, depending on its approach."
+      },
+      "conflict": {
+        "governance": "Conflict resolution requires effective governance, while poor governance can trigger conflicts.",
+        "inequality": "Conflicts often arise from inequalities and can deepen existing disparities.",
+        "water": "Water scarcity can trigger conflicts, while conflicts can damage water infrastructure."
+      },
+      "water": {
+        "climate-change": "Water systems are vulnerable to climate change, while water management affects climate resilience.",
+        "population": "Water availability shapes population patterns, while population growth strains water resources.",
+        "conflict": "Water access can be both a source and casualty of conflict."
+      },
+      "cultural-diversity": {
+        "education": "Educational systems can either support or threaten cultural diversity.",
+        "technology": "Technology can help preserve cultures but also accelerate homogenization.",
+        "inequality": "Cultural marginalization often correlates with economic inequality."
+      }
+    },
+    "connection_summaries": {
+      "climate-change": "Climate change interconnects with inequality, health, and resource management through complex feedback loops that affect both human and natural systems.",
+      "inequality": "Social and economic inequality shapes access to resources, opportunities, and resilience, while being reinforced by various systemic factors.",
+      "governance": "Governance systems influence and are influenced by social stability, technological change, and economic fairness.",
+      "technology": "Technological development affects social equity, education, and governance while being shaped by these same forces.",
+      "population": "Population dynamics interact with resource availability, public health, and environmental pressures.",
+      "health": "Public health is deeply connected to social equity, environmental conditions, and population patterns.",
+      "education": "Education's role in society connects to inequality, technological adoption, and cultural preservation.",
+      "conflict": "Conflicts arise from and affect governance, resource access, and social inequalities.",
+      "water": "Water access and management connect to climate, population patterns, and conflict potential.",
+      "cultural-diversity": "Cultural diversity intersects with education, technology, and social equity in complex ways."
+    },
+    "map": {
+      "instructions": "Click on any issue or connection to explore relationships",
+      "connection_details": "Relationship Details",
+      "connected_issues": "Connected Issues",
+      "click_to_explore": "Click to explore connections",
+      "hover_for_details": "Hover over elements for more information",
+      "tooltips": {
+        "climate-change": {
+          "inequality": "Climate impacts and adaptation capabilities are linked to economic status",
+          "water": "Climate change affects water availability and quality",
+          "population": "Population growth increases climate pressures and drives migration",
+          "health": "Climate change creates new health challenges and risks",
+          "governance": "Climate action requires effective global governance systems"
+        },
+        "inequality": {
+          "climate-change": "Economic disparities determine climate resilience and vulnerability",
+          "education": "Access to education and economic opportunity reinforce each other",
+          "health": "Social inequalities create health disparities",
+          "conflict": "Economic disparities fuel social tensions and unrest",
+          "technology": "Technology access gaps reflect and reinforce inequalities",
+          "governance": "Political systems influence economic equity"
+        },
+        "governance": {
+          "conflict": "Effective governance is crucial for preventing conflicts",
+          "technology": "Governance must adapt to rapid technological change",
+          "inequality": "Political systems influence economic fairness",
+          "climate-change": "Global coordination is needed for climate action",
+          "education": "Governance shapes educational access and quality"
+        },
+        "technology": {
+          "education": "Technology transforms learning while education enables innovation",
+          "inequality": "Digital divides can worsen economic disparities",
+          "governance": "Tech development requires adaptive governance",
+          "health": "Technology advances healthcare capabilities",
+          "cultural-diversity": "Digital tools affect cultural preservation"
+        },
+        "population": {
+          "water": "Growing populations strain water resources",
+          "health": "Population changes affect healthcare needs",
+          "climate-change": "Population growth impacts environmental pressures",
+          "education": "Demographics influence educational systems",
+          "technology": "Population patterns affect tech adoption"
+        },
+        "health": {
+          "population": "Health systems must adapt to demographic changes",
+          "inequality": "Healthcare access reflects social inequities",
+          "climate-change": "Environmental changes create health risks",
+          "technology": "Tech innovation transforms healthcare",
+          "education": "Health education impacts public wellbeing"
+        },
+        "education": {
+          "inequality": "Education is key to reducing social disparities",
+          "technology": "Education must evolve with technological advances",
+          "cultural-diversity": "Education shapes cultural preservation",
+          "governance": "Educational systems reflect governance priorities",
+          "health": "Education influences health outcomes"
+        },
+        "conflict": {
+          "governance": "Poor governance can trigger or worsen conflicts",
+          "inequality": "Economic disparities fuel social tensions",
+          "water": "Resource scarcity can trigger conflicts",
+          "population": "Population pressures can lead to conflicts",
+          "cultural-diversity": "Cultural tensions can spark conflicts"
+        },
+        "water": {
+          "climate-change": "Climate change affects water availability",
+          "population": "Population growth strains water resources",
+          "conflict": "Water scarcity can trigger conflicts",
+          "health": "Clean water access affects public health",
+          "governance": "Water management requires effective governance"
+        },
+        "cultural-diversity": {
+          "education": "Education systems affect cultural preservation",
+          "technology": "Digital tools impact cultural expression",
+          "inequality": "Cultural marginalization often follows economic lines",
+          "conflict": "Cultural differences can lead to tensions",
+          "governance": "Governance affects cultural rights protection"
+        }
+      }
+    }
   }
 }

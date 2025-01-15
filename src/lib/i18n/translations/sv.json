@@ -153,5 +153,568 @@
       "description": "Anslut dig till andra som är på liknande resor av reflektion och handling.",
       "button": "Gå med i vår gemenskap"
     }
+  },
+  "children": {
+    "meta": {
+      "title": "Involvera barn - Fjärilsrörelsen",
+      "description": "Ompröva hur vi engagerar barn i deras framtid och deras roll i att skapa positiv förändring."
+    },
+    "hero": {
+      "title": "Involvera barn i att forma vår framtid",
+      "description": "Gå bortom 'Vad vill du bli?' för att utforska hur barn föreställer sig sina liv och deras påverkan på världen."
+    },
+    "rethinking": {
+      "title": "Ompröva vårt tillvägagångssätt",
+      "description": "Traditionellt frågar vi barn vad de vill bli när de blir stora, med fokus på karriärvägar. Detta betonar yttre prestationer framför inre tillfredsställelse och samhällspåverkan. Det är dags att bredda samtalet."
+    },
+    "questions": {
+      "title": "Bättre frågor att ställa",
+      "life": "Hur vill du att ditt liv ska vara, nu och i framtiden?",
+      "world": "Vilken typ av värld vill du hjälpa till att skapa?",
+      "thrive": "Hur kan du blomstra samtidigt som du hjälper andra att blomstra?"
+    },
+    "approaches": {
+      "title": "Nyckelaspekter av detta tillvägagångssätt",
+      "broader": {
+        "title": "Bredare perspektiv",
+        "description": "Uppmuntra barn att se sambandet mellan personlig välbefinnande och samhälleligt välbefinnande, främja empati och globalt medborgarskap."
+      },
+      "values": {
+        "title": "Värderingar och syfte",
+        "description": "Flytta fokus från roller till egenskaper och hjälp barn att utforska vad som verkligen ger tillfredsställelse och mening."
+      },
+      "agency": {
+        "title": "Stärkande av handlingskraft",
+        "description": "Lär barn att de har makten att forma sina liv och sin miljö på meningsfulla sätt, både nu och i framtiden."
+      },
+      "resilience": {
+        "title": "Bygga motståndskraft",
+        "description": "Utveckla anpassningsförmåga och medvetenhet som viktiga färdigheter för att navigera i en osäker värld."
+      }
+    },
+    "implementation": {
+      "title": "Omsätta i praktiken",
+      "reflection": {
+        "title": "Integrera reflektion",
+        "description": "Inkludera aktiviteter som uppmuntrar elever att tänka på sina värderingar, mål och hur deras handlingar påverkar andra och planeten."
+      },
+      "dialogue": {
+        "title": "Uppmuntra dialog",
+        "description": "Underlätta samtal mellan barn och olika generationer för att utforska olika livsperspektiv och visdom."
+      },
+      "systems": {
+        "title": "Systemtänkande",
+        "description": "Hjälp barn att förstå hur deras val och handlingar är en del av större system, vilket främjar ansvar och egenmakt."
+      },
+      "experiential": {
+        "title": "Erfarenhetsbaserat lärande",
+        "description": "Skapa möjligheter för problemlösning i verkliga livet och samhällsengagemang som betonar kollektivt välmående."
+      }
+    }
+  },
+  "issues": {
+    "common": {
+      "back_to_issues": "Tillbaka till utmaningar",
+      "previous_issue": "Föregående",
+      "next_issue": "Nästa",
+      "issue": "Utmaning",
+      "connection_map": "Hur denna utmaning hänger ihop",
+      "click_to_explore": "Klicka på en utmaning för att utforska kopplingarna",
+      "why_pressing": "Varför detta är brådskande",
+      "connections": "Hur det hänger ihop",
+      "solutions": "Vad som kan göras",
+      "related_issues": "Relaterade utmaningar"
+    },
+    "climate-change": {
+      "short_title": "Klimatförändring",
+      "meta": {
+        "title": "Klimatförändringar och Miljöförstöring",
+        "description": "Förstå de sammankopplade kriserna kring klimatförändringar och miljöförstöring, deras påverkan och lösningar."
+      },
+      "title": "Klimatförändringar och Miljöförstöring",
+      "introduction": "Den viktigaste utmaningen som vår planet står inför idag är de sammankopplade kriserna kring klimatförändringar och miljöförstöring. Denna utmaning omfattar flera brådskande problem som hotar jordens livsuppehållande system och kräver omedelbara, samordnade globala åtgärder.",
+      "key_aspects": [
+        {
+          "title": "Global Uppvärmning och Extremt Väder",
+          "description": "Stigande temperaturer leder till smältande isar, höjda havsnivåer och allt allvarligare vädermönster, som orkaner, torka och översvämningar."
+        },
+        {
+          "title": "Förlust av Biologisk Mångfald",
+          "description": "Förstörelse av livsmiljöer, föroreningar och ohållbara metoder driver arter till utrotning i en alarmerande takt, vilket stör ekosystem och minskar jordens motståndskraft."
+        }
+      ],
+      "connections_list": [
+        "Miljörättvisa: De som har minst ansvar för miljöförstöringen drabbas ofta värst av dess effekter.",
+        "Ekonomiska System: Nuvarande modeller prioriterar vinst framför miljömässigt välbefinnande.",
+        "Globalt Samarbete: Att hantera klimatförändringar kräver ett aldrig tidigare skådat internationellt samarbete."
+      ],
+      "solutions_list": [
+        {
+          "title": "Övergång till Förnybar Energi",
+          "description": "Snabbt skifta från fossila bränslen till rena energikällor samtidigt som energieffektiviteten förbättras."
+        },
+        {
+          "title": "Skydda och Återställ Ekosystem",
+          "description": "Genomföra storskaliga bevarande- och återställningsprojekt för att bevara biologisk mångfald och förbättra kolsänkor."
+        }
+      ]
+    },
+    "inequality": {
+      "short_title": "Ojämlikhet"
+    },
+    "governance": {
+      "short_title": "Styrning"
+    },
+    "technology": {
+      "short_title": "Teknologi"
+    },
+    "population": {
+      "short_title": "Befolkning"
+    },
+    "health": {
+      "short_title": "Hälsa"
+    },
+    "education": {
+      "short_title": "Utbildning"
+    },
+    "conflict": {
+      "short_title": "Konflikt"
+    },
+    "water": {
+      "short_title": "Vattenkris"
+    },
+    "cultural-diversity": {
+      "short_title": "Kulturell mångfald"
+    },
+    "meta": {
+      "title": "Globala Utmaningar - Fjärilsrörelsen",
+      "description": "Utforska de mest angelägna utmaningarna som vår värld står inför idag och hur de hänger ihop."
+    },
+    "hero": {
+      "title": "Globala Utmaningar",
+      "description": "Förstå de sammankopplade utmaningarna som formar vår världs framtid."
+    },
+    "diagram": {
+      "title": "Den Sammankopplade Naturen hos Globala Utmaningar",
+      "description": "Detta diagram illustrerar hur våra stora globala utmaningar påverkar och förstärker varandra, vilket understryker behovet av systemiska lösningar.",
+      "legend": {
+        "title": "Diagramförklaring",
+        "primary": "Primära Utmaningar",
+        "secondary": "Sammankopplade Utmaningar",
+        "connection": "Påverkar/Berör"
+      }
+    },
+    "top10": {
+      "title": "Topp 10 Mest Angelägna Utmaningar",
+      "climate": {
+        "title": "Klimatförändringar och Miljöförstöring",
+        "description": "De sammankopplade kriserna av global uppvärmning, förlust av biologisk mångfald och miljöförstörelse som hotar jordens livsuppehållande system."
+      },
+      "inequality": {
+        "title": "Social och Ekonomisk Ojämlikhet",
+        "description": "Växande klyftor i rikedom, möjligheter och tillgång till resurser, vilket undergräver social stabilitet och mänsklig potential."
+      },
+      "governance": {
+        "title": "Kris i Globalt Styre",
+        "description": "Bristen på effektiva, inkluderande och adaptiva globala styrsystem som behövs för att möta våra gemensamma utmaningar."
+      },
+      "technology": {
+        "title": "Teknologins Påverkan",
+        "description": "De etiska och samhälleliga implikationerna av snabb teknologisk utveckling, från AI och automation till integritet och digitala klyftor."
+      },
+      "population": {
+        "title": "Befolkningstillväxt och Urbanisering",
+        "description": "Utmaningar för hållbar utveckling när städer växer och världens befolkning ökar, vilket belastar resurser och system."
+      },
+      "health": {
+        "title": "Global Hälsa och Pandemiberedskap",
+        "description": "Behovet av robusta hälsosystem och internationellt samarbete för att hantera nuvarande och framtida hälsokriser."
+      },
+      "education": {
+        "title": "Utbildning och Kunskapstillgång",
+        "description": "Säkerställa kvalitativ utbildning och kunskapstillgång för alla som nyckeldrivkrafter för hållbar utveckling och mänskligt välmående."
+      },
+      "conflict": {
+        "title": "Konflikter och Geopolitisk Instabilitet",
+        "description": "Pågående krig, konflikter och geopolitiska spänningar som hotar fred, utveckling och internationellt samarbete."
+      },
+      "water": {
+        "title": "Global Vattenkris",
+        "description": "Växande utmaningar med tillgång till rent vatten, som påverkar mänsklig hälsa, livsmedelssäkerhet och ekosystemens stabilitet."
+      },
+      "cultural": {
+        "title": "Förlust av Kulturell och Språklig Mångfald",
+        "description": "Den snabba minskningen av kulturell och språklig mångfald, vilket hotar mänsklig kunskap, identitet och sätt att förstå världen."
+      }
+    },
+    "extended": {
+      "title": "Ytterligare Globala Utmaningar",
+      "environmental": {
+        "title": "Miljöutmaningar",
+        "challenges": {
+          "energy": {
+            "number": 11,
+            "title": "Energiomställning och Hållbarhet",
+            "description": "Minska det globala beroendet av fossila bränslen för att säkerställa en övergång till förnybara energikällor."
+          },
+          "oceans": {
+            "number": 12,
+            "title": "Hälsa för Haven",
+            "description": "Bekämpa överfiske, plastföroreningar och försurning av haven för att skydda marina ekosystem."
+          },
+          "deforestation": {
+            "number": 13,
+            "title": "Avskogning och Markförstöring",
+            "description": "Förhindra habitatförstörelse och jorderosion för att bevara biologisk mångfald och stödja jordbruket."
+          },
+          "air": {
+            "number": 14,
+            "title": "Luftföroreningar",
+            "description": "Minska utsläpp och förbättra luftkvaliteten för att skydda människors hälsa och miljön."
+          },
+          "waste": {
+            "number": 15,
+            "title": "Avfallshantering",
+            "description": "Utveckla effektiva strategier för att minska, återvinna och hantera avfall på ett hållbart sätt."
+          },
+          "soil": {
+            "number": 16,
+            "title": "Jordens Bördighet och Hållbart Jordbruk",
+            "description": "Åtgärda jordförstöring och främja regenerativa jordbruksmetoder."
+          },
+          "freshwater": {
+            "number": 17,
+            "title": "Skydd av Sötvattenekosystem",
+            "description": "Skydda floder, sjöar och våtmarker från föroreningar och överanvändning."
+          },
+          "desertification": {
+            "number": 18,
+            "title": "Ökenspridning",
+            "description": "Bekämpa öknarnas spridning och återställa torra ekosystem."
+          },
+          "chemicals": {
+            "number": 19,
+            "title": "Kemiska Föroreningar",
+            "description": "Åtgärda effekterna av industriella kemikalier och bekämpningsmedel på ekosystem och människors hälsa."
+          },
+          "polar": {
+            "number": 20,
+            "title": "Skydd av Polarområden",
+            "description": "Skydda Arktis och Antarktis från smältande isar, habitatförlust och exploatering av resurser."
+          }
+        }
+      },
+      "social": {
+        "title": "Sociala och Ekonomiska Utmaningar",
+        "challenges": {
+          "youth": {
+            "number": 21,
+            "title": "Stärka Ungdomar",
+            "description": "Skapa möjligheter för nästa generation att leda och innovera."
+          },
+          "food": {
+            "number": 22,
+            "title": "Livsmedelssäkerhet",
+            "description": "Säkerställa hållbar och rättvis tillgång till näring för en växande befolkning."
+          },
+          "economic": {
+            "number": 23,
+            "title": "Reform av Ekonomiska System",
+            "description": "Transformera ekonomiska modeller för att prioritera välbefinnande och hållbarhet framför ren tillväxt."
+          },
+          "migration": {
+            "number": 24,
+            "title": "Migration och Stöd för Flyktingar",
+            "description": "Stödja fördrivna populationer och skapa hållbara migrationspolicys."
+          },
+          "aging": {
+            "number": 25,
+            "title": "Åldrande Befolkningar",
+            "description": "Hantera de ekonomiska och sociala konsekvenserna av åldrande demografier."
+          },
+          "basic_income": {
+            "number": 26,
+            "title": "Ekonomisk Trygghet",
+            "description": "Utforska lösningar som medborgarlön för att hantera fattigdom och ekonomisk instabilitet."
+          },
+          "urban": {
+            "number": 27,
+            "title": "Urban Utveckling",
+            "description": "Säkerställa att städer är motståndskraftiga, inkluderande och hållbara."
+          },
+          "gender": {
+            "number": 28,
+            "title": "Jämställdhet",
+            "description": "Främja rättvisa för alla kön inom utbildning, sysselsättning och sociala roller."
+          },
+          "healthcare": {
+            "number": 29,
+            "title": "Tillgång till Vård",
+            "description": "Utöka tillgången till kvalitativ vård för underbetjänade populationer."
+          },
+          "mental_health": {
+            "number": 30,
+            "title": "Stöd för Psykisk Hälsa",
+            "description": "Hantera den globala ökningen av psykiska hälsoproblem och tillhandahålla adekvat stöd."
+          }
+        }
+      },
+      "technological": {
+        "title": "Teknologiska och Etiska Utmaningar",
+        "challenges": {
+          "cybersecurity": {
+            "number": 31,
+            "title": "Digital Säkerhet och Integritet",
+            "description": "Skydda individer och samhällen från cyberhot och dataexploatering."
+          },
+          "ai_ethics": {
+            "number": 32,
+            "title": "AI-etik och Styrning",
+            "description": "Säkerställa att AI-system är rättvisa, transparenta och i linje med mänskliga värderingar."
+          },
+          "biotech": {
+            "number": 33,
+            "title": "Etik inom Bioteknik",
+            "description": "Balansera innovation med etiska överväganden inom genteknik och syntetisk biologi."
+          },
+          "space": {
+            "number": 34,
+            "title": "Rymdstyrning",
+            "description": "Etablera ramverk för ansvarsfull utforskning och användning av rymdresurser."
+          },
+          "automation": {
+            "number": 35,
+            "title": "Framtiden för Arbete",
+            "description": "Förbereda för arbetskraftens omställningar på grund av automation och tekniska förändringar."
+          },
+          "digital_divide": {
+            "number": 36,
+            "title": "Digital Inkludering",
+            "description": "Säkerställa rättvis tillgång till teknik och digitala möjligheter."
+          },
+          "consumption": {
+            "number": 37,
+            "title": "Hållbar Konsumtion",
+            "description": "Främja ansvarsfulla produktions- och konsumtionsmönster."
+          },
+          "fintech": {
+            "number": 38,
+            "title": "Finansiell Teknik",
+            "description": "Hantera utvecklingen av finansiella system och digitala valutor."
+          },
+          "innovation": {
+            "number": 39,
+            "title": "Kunskapstillgång",
+            "description": "Balansera immateriella rättigheter med öppen tillgång till innovation."
+          },
+          "media": {
+            "number": 40,
+            "title": "Medias Integritet",
+            "description": "Bekämpa desinformation och säkerställa ansvarsfull journalistik."
+          }
+        }
+      },
+      "governance": {
+        "title": "Styrnings- och Politiska Utmaningar",
+        "challenges": {
+          "corruption": {
+            "number": 41,
+            "title": "Antikorruption",
+            "description": "Minska korruption och förbättra transparensen i politiska system."
+          },
+          "democracy": {
+            "number": 42,
+            "title": "Demokratisk Motståndskraft",
+            "description": "Stärka demokratiska institutioner och processer."
+          },
+          "cooperation": {
+            "number": 43,
+            "title": "Globalt Samarbete",
+            "description": "Stärka internationella institutioner och multilaterala partnerskap."
+          },
+          "human_rights": {
+            "number": 44,
+            "title": "Skydd av Mänskliga Rättigheter",
+            "description": "Säkerställa universell respekt för mänskliga rättigheter och värdighet."
+          },
+          "disarmament": {
+            "number": 45,
+            "title": "Fred och Avväpning",
+            "description": "Minska militära spänningar och eliminera massförstörelsevapen."
+          },
+          "extremism": {
+            "number": 46,
+            "title": "Social Sammanhållning",
+            "description": "Hantera extremism och främja inkluderande dialog."
+          },
+          "indigenous": {
+            "number": 47,
+            "title": "Ursprungsbefolkningars Rättigheter",
+            "description": "Skydda ursprungsfolkens rättigheter, marker och kulturella arv."
+          },
+          "digital_governance": {
+            "number": 48,
+            "title": "Digital Styrning",
+            "description": "Utveckla ramverk för etisk användning och reglering av teknik."
+          },
+          "citizenship": {
+            "number": 49,
+            "title": "Globalt Medborgarskap",
+            "description": "Främja medvetenhet och ansvar för globala utmaningar."
+          },
+          "resilience": {
+            "number": 50,
+            "title": "Krisberedskap",
+            "description": "Bygga system för att motstå och anpassa sig till framtida utmaningar."
+          }
+        }
+      }
+    },
+    "connections": {
+      "climate-change": {
+        "inequality": "Klimatpåverkan drabbar sårbara befolkningar oproportionerligt, medan ekonomisk ojämlikhet påverkar klimatresiliens.",
+        "water": "Klimatförändringar stör vattenkretslopp och tillgång, medan vattenstress förstärker klimatrelaterade sårbarheter.",
+        "population": "Befolkningstillväxt ökar klimatpåfrestningar, medan klimatförändringar påverkar beboelighet och migration.",
+        "health": "Klimatförändringar påverkar folkhälsan genom extrema väderförhållanden, sjukdomar och luftkvalitet."
+      },
+      "inequality": {
+        "climate-change": "Ekonomiska skillnader avgör möjligheter till klimatanpassning och exponering för miljörisker.",
+        "education": "Brist på utbildningsmöjligheter upprätthåller ekonomisk ojämlikhet, medan fattigdom begränsar tillgången till utbildning.",
+        "health": "Social ojämlikhet skapar hälsoskillnader i tillgång, utfall och resiliens.",
+        "conflict": "Ekonomisk ojämlikhet driver sociala spänningar och konflikter, medan konflikter förvärrar ojämlikhet."
+      },
+      "governance": {
+        "conflict": "Styrningsmisslyckanden kan leda till konflikter, medan konflikter underminerar effektiv styrning.",
+        "technology": "Styrningsramverk påverkar teknologisk utveckling, medan teknologi förändrar styrningsbehov.",
+        "inequality": "Styrsystem påverkar ekonomisk ojämlikhet, medan ojämlikhet påverkar demokratiska processer."
+      },
+      "technology": {
+        "education": "Teknologi förändrar utbildningsbehov och möjligheter, medan utbildning formar teknologins adoption.",
+        "inequality": "Teknologi kan både minska och förstärka social ojämlikhet, beroende på tillgång och implementering.",
+        "governance": "Teknologisk förändring skapar nya utmaningar för styrning och verktyg för bättre styrning."
+      },
+      "population": {
+        "water": "Befolkningstillväxt ökar vattenbehovet, medan vattenbrist påverkar befolkningsfördelningen.",
+        "health": "Befolkningsdynamik påverkar hälsosystem, medan hälsoutfall påverkar demografiska trender.",
+        "climate-change": "Befolkningstillväxt påverkar miljöbelastning, medan klimatförändringar påverkar migrationsmönster."
+      },
+      "health": {
+        "population": "Folkhälsa påverkar demografiska trender, medan befolkningsförändringar påverkar vårdbehov.",
+        "inequality": "Hälsoskillnader reflekterar och förstärker social ojämlikhet.",
+        "climate-change": "Hälsosystem möter nya utmaningar från klimatförändringar, medan folkhälsa påverkar klimatresiliens."
+      },
+      "education": {
+        "inequality": "Utbildning är nyckeln till att minska ojämlikhet, medan ekonomiska skillnader påverkar tillgången till utbildning.",
+        "technology": "Utbildning förbereder människor för teknologisk förändring, medan teknologi förändrar lärande.",
+        "cultural-diversity": "Utbildning kan bevara eller urholka kulturell mångfald, beroende på dess tillvägagångssätt."
+      },
+      "conflict": {
+        "governance": "Konfliktlösning kräver effektiv styrning, medan dålig styrning kan utlösa konflikter.",
+        "inequality": "Konflikter uppstår ofta från ojämlikhet och kan fördjupa befintliga skillnader.",
+        "water": "Vattenbrist kan utlösa konflikter, medan konflikter kan skada vatteninfrastruktur."
+      },
+      "water": {
+        "climate-change": "Vattensystem är sårbara för klimatförändringar, medan vattenhantering påverkar klimatresiliens.",
+        "population": "Vattentillgång formar befolkningsmönster, medan befolkningstillväxt belastar vattenresurser.",
+        "conflict": "Tillgång till vatten kan vara både en källa till och ett offer för konflikter."
+      },
+      "cultural-diversity": {
+        "education": "Utbildningssystem kan antingen stödja eller hota kulturell mångfald.",
+        "technology": "Teknologi kan hjälpa till att bevara kulturer men också påskynda homogenisering.",
+        "inequality": "Kulturell marginalisering korrelerar ofta med ekonomisk ojämlikhet."
+      }
+    },
+    "connection_summaries": {
+      "climate-change": "Klimatförändringar är sammankopplade med ojämlikhet, hälsa och resurshantering genom komplexa återkopplingsslingor som påverkar både mänskliga och naturliga system.",
+      "inequality": "Social och ekonomisk ojämlikhet formar tillgången till resurser, möjligheter och resiliens, samtidigt som den förstärks av olika systemiska faktorer.",
+      "governance": "Styrningssystem påverkar och påverkas av social stabilitet, teknologisk förändring och ekonomisk rättvisa.",
+      "technology": "Teknologisk utveckling påverkar social rättvisa, utbildning och styrning, samtidigt som den formas av dessa krafter.",
+      "population": "Befolkningsdynamik interagerar med resursflöden, folkhälsa och miljöpåverkan.",
+      "health": "Folkhälsa är djupt kopplad till social rättvisa, miljöförhållanden och befolkningsmönster.",
+      "education": "Utbildningens roll i samhället är kopplad till ojämlikhet, teknologisk adoption och kulturellt bevarande.",
+      "conflict": "Konflikter uppstår från och påverkar styrning, resursåtkomst och social ojämlikhet.",
+      "water": "Tillgång och hantering av vatten är kopplade till klimat, befolkningsmönster och konfliktpotential.",
+      "cultural-diversity": "Kulturell mångfald interagerar med utbildning, teknologi och social rättvisa på komplexa sätt."
+    },
+    "map": {
+      "instructions": "Klicka på ett ämne eller en koppling för att utforska relationerna",
+      "connection_details": "Detaljer om relationen",
+      "connected_issues": "Relaterade ämnen",
+      "click_to_explore": "Klicka för att utforska kopplingar",
+      "hover_for_details": "Håll muspekaren över element för mer information",
+      "tooltips": {
+        "climate-change": {
+            "inequality": "Klimatpåverkan och anpassningsförmåga är kopplade till ekonomisk status",
+            "water": "Klimatförändringar påverkar vattentillgång och kvalitet",
+            "population": "Befolkningstillväxt ökar klimatpåfrestningar och driver migration",
+            "health": "Klimatförändringar skapar nya hälsorisker och utmaningar",
+            "governance": "Klimatåtgärder kräver effektiva globala styrsystem"
+        },
+        "inequality": {
+            "climate-change": "Ekonomiska skillnader avgör klimatresiliens och sårbarhet",
+            "education": "Tillgång till utbildning och ekonomiska möjligheter förstärker varandra",
+            "health": "Social ojämlikhet skapar hälsoskillnader",
+            "conflict": "Ekonomiska skillnader driver sociala spänningar och oroligheter",
+            "technology": "Skillnader i tekniktillgång återspeglar och förstärker ojämlikheter",
+            "governance": "Politiska system påverkar ekonomisk rättvisa"
+        },
+        "governance": {
+            "conflict": "Effektiv styrning är avgörande för att förebygga konflikter",
+            "technology": "Styrning måste anpassas till snabb teknologisk förändring",
+            "inequality": "Politiska system påverkar ekonomisk rättvisa",
+            "climate-change": "Global samordning behövs för klimatåtgärder",
+            "education": "Styrning formar tillgång och kvalitet på utbildning"
+        },
+        "technology": {
+            "education": "Teknologi förändrar lärandet medan utbildning möjliggör innovation",
+            "inequality": "Digitala klyftor kan förvärra ekonomiska skillnader",
+            "governance": "Teknologisk utveckling kräver anpassningsbar styrning",
+            "health": "Teknologiska framsteg förbättrar vårdkapacitet",
+            "cultural-diversity": "Digitala verktyg påverkar kulturellt bevarande"
+        },
+        "population": {
+            "water": "Växande befolkningar belastar vattenresurser",
+            "health": "Befolkningsförändringar påverkar vårdbehov",
+            "climate-change": "Befolkningstillväxt påverkar miljöbelastning",
+            "education": "Demografi påverkar utbildningssystem",
+            "technology": "Befolkningsmönster påverkar teknologianvändning"
+        },
+        "health": {
+            "population": "Hälsosystem måste anpassas till demografiska förändringar",
+            "inequality": "Tillgång till vård speglar sociala ojämlikheter",
+            "climate-change": "Miljöförändringar skapar hälsorisker",
+            "technology": "Teknologisk innovation förändrar vården",
+            "education": "Hälsoutbildning påverkar folkhälsan"
+        },
+        "education": {
+            "inequality": "Utbildning är nyckeln till att minska sociala skillnader",
+            "technology": "Utbildning måste utvecklas med teknologiska framsteg",
+            "cultural-diversity": "Utbildning formar kulturellt bevarande",
+            "governance": "Utbildningssystem speglar styrningens prioriteringar",
+            "health": "Utbildning påverkar hälsoutfall"
+        },
+        "conflict": {
+            "governance": "Dålig styrning kan utlösa eller förvärra konflikter",
+            "inequality": "Ekonomiska skillnader driver sociala spänningar",
+            "water": "Resursbrist kan utlösa konflikter",
+            "population": "Befolkningstryck kan leda till konflikter",
+            "cultural-diversity": "Kulturella spänningar kan orsaka konflikter"
+        },
+        "water": {
+            "climate-change": "Klimatförändringar påverkar vattentillgång",
+            "population": "Befolkningstillväxt belastar vattenresurser",
+            "conflict": "Vattenbrist kan utlösa konflikter",
+            "health": "Tillgång till rent vatten påverkar folkhälsan",
+            "governance": "Vattenhantering kräver effektiv styrning"
+        },
+        "cultural-diversity": {
+            "education": "Utbildningssystem påverkar kulturellt bevarande",
+            "technology": "Digitala verktyg påverkar kulturellt uttryck",
+            "inequality": "Kulturell marginalisering följer ofta ekonomiska linjer",
+            "conflict": "Kulturella skillnader kan leda till spänningar",
+            "governance": "Styrning påverkar skyddet av kulturella rättigheter"
+        }
+      }
+    }
   }
 }
