@@ -1,0 +1,157 @@
+{
+  "common": {
+    "movement-name": "Fjärilsrörelsen"
+  },
+  "nav": {
+    "home": "Hem",
+    "about": "Om oss",
+    "issues": "Globala utmaningar",
+    "reflect": "Självreflektion",
+    "children": "Engagera barn",
+    "join": "Gå med i Discord"
+  },
+  "footer": {
+    "description": "En global gemenskap som arbetar tillsammans för att hantera planetens mest brådskande utmaningar genom reflektion, samarbete och meningsfull handling.",
+    "links": "Snabblänkar",
+    "social": "Kontakt",
+    "movement": "Fjärilsrörelsen",
+    "rights": "Alla rättigheter förbehållna",
+    "privacy": "Integritetspolicy",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "meta": {
+      "title": "Fjärilsrörelsen - Förändras Tillsammans",
+      "description": "Anslut dig till en global rörelse dedikerad till att hantera planetens mest brådskande utmaningar genom reflektion, samarbete och handling."
+    },
+    "hero": {
+      "title": "Förändras Tillsammans",
+      "description": "En global rörelse dedikerad till att hantera planetens mest brådskande utmaningar genom reflektion, samarbete och handling.",
+      "join": "Gå med i Discord",
+      "explore": "Utforska Globala Utmaningar"
+    },
+    "issues": {
+      "title": "Viktiga Globala Utmaningar",
+      "climate": {
+        "title": "Klimatförändringar",
+        "description": "Hantera den brådskande krisen med globala klimatförändringar och miljöförstöring."
+      },
+      "inequality": {
+        "title": "Social Ojämlikhet",
+        "description": "Arbeta för en mer rättvis värld med rättvisa möjligheter för alla."
+      },
+      "future": {
+        "title": "Framtida Generationer",
+        "description": "Säkerställa en blomstrande planet för barn och framtida generationer."
+      }
+    },
+    "cta": {
+      "title": "Påbörja Din Resa",
+      "description": "Börja med självreflektion och upptäck hur du kan bidra till positiv förändring på ditt eget unika sätt.",
+      "button": "Prova Självreflektionsverktyget"
+    },
+    "community": {
+      "title": "Gå Med i Vår Gemenskap",
+      "description": "Anslut med likasinnade människor världen över, dela idéer och samordna meningsfulla handlingar genom vår Discord-gemenskap.",
+      "join": "Gå med i Discord"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Om Fjärilsrörelsen",
+      "description": "Lär dig om vårt uppdrag att skapa positiv global förändring genom reflektion, samarbete och handling."
+    },
+    "hero": {
+      "title": "Om Fjärilsrörelsen",
+      "description": "En global gemenskap som arbetar tillsammans för att hantera världens mest brådskande utmaningar genom meningsfull handling och transformation."
+    },
+    "origin": {
+      "title": "Vår Historia",
+      "paragraph1": "Fjärilsrörelsen uppstod ur en enkel men kraftfull idé: att meningsfull förändring börjar med individuell reflektion men växer genom kollektiv handling. Grundad 2024 av Björn Kenneth Holmström i samband med etableringen av Fjärilspartiet i Sverige, representerar rörelsen en global förlängning av dessa transformativa ideal.",
+      "paragraph2": "Idag bygger vi en världsomspännande gemenskap av individer som är engagerade i att hantera globala utmaningar genom eftertänksam reflektion, meningsfull dialog och samordnad handling. Vårt tillvägagångssätt betonar de globala utmaningarnas sammankopplade natur och vikten av inkluderande, samarbetsbaserade lösningar."
+    },
+    "principles": {
+      "title": "Våra Grundprinciper",
+      "global": {
+        "title": "Globalt Perspektiv",
+        "description": "Förstå den sammankopplade naturen av globala utmaningar och främja lösningar som överskrider gränser."
+      },
+      "collective": {
+        "title": "Kollektiv Handling",
+        "description": "Sammanföra människor för att skapa meningsfull förändring genom samarbete och delat syfte."
+      },
+      "transformation": {
+        "title": "Personlig Utveckling",
+        "description": "Uppmuntra individuell reflektion och utveckling som katalysatorer för bredare samhällsförändring."
+      }
+    },
+    "vision": {
+      "title": "Vår Vision för Framtiden",
+      "paragraph1": "Vi föreställer oss en värld där globala utmaningar hanteras genom eftertänksamt samarbete, där varje individ har möjlighet att meningsfullt bidra till positiv förändring, och där våra utmaningars sammankopplade natur möts med lika sammankopplade lösningar.",
+      "paragraph2": "Genom vår gemenskap, våra verktyg och resurser arbetar vi för att göra denna vision till verklighet, ett steg i taget. Vi tror att genom att kombinera personlig reflektion med kollektiv handling kan vi skapa bestående positiv förändring för nuvarande och framtida generationer."
+    }
+  },
+  "reflect": {
+    "meta": {
+      "title": "Självreflektionsverktyg - Fjärilsrörelsen",
+      "description": "Upptäck hur du kan bidra till positiv förändring genom guidad självreflektion."
+    },
+    "hero": {
+      "title": "Självreflektionsverktyg",
+      "description": "Påbörja din resa mot att upptäcka hur du kan bidra till meningsfull förändring."
+    },
+    "intro": {
+      "paragraph1": "Förändring börjar med att förstå oss själva och hur vi bäst kan bidra till världen. Detta verktyg vägleder dig genom en självreflektionsprocess för att hjälpa dig identifiera din unika väg till att göra skillnad.",
+      "paragraph2": "Ta dig tid med varje steg och var ärlig och eftertänksam i dina svar. Kom ihåg att det inte finns några rätta eller fel svar – detta handlar om att upptäcka ditt personliga sätt att bidra."
+    },
+    "exercise": {
+      "title": "Din Självreflektionsresa",
+      "step1": {
+        "title": "Dokumentera Dina Nuvarande Aktiviteter",
+        "description": "Lista dina regelbundna aktiviteter och sortera dem i följande kategorier:",
+        "categories": {
+          "essential": "Nödvändiga Aktiviteter",
+          "optional": "Valfria Aktiviteter",
+          "timeConsuming": "Tidskrävande men Mindre Givande"
+        },
+        "placeholders": {
+          "essential": "T.ex. arbetsuppgifter, familjevård, hälsounderhåll...",
+          "optional": "T.ex. hobbyer, sociala medier, underhållning...",
+          "timeConsuming": "T.ex. överflödiga möten, ofokuserat surfande..."
+        }
+      },
+      "step2": {
+        "title": "Reflektera över Ditt Varför",
+        "questions": {
+          "purpose": {
+            "title": "Syfte och Mening",
+            "description": "Vilka aktiviteter ger dig störst känsla av syfte och varför?"
+          },
+          "values": {
+            "title": "Värderingar",
+            "description": "Vilka av dina nuvarande aktiviteter stämmer bäst överens med dina grundvärderingar?"
+          },
+          "fulfillment": {
+            "title": "Personlig Tillfredsställelse",
+            "description": "Vilka aktiviteter får dig att känna dig mest energisk och uppfylld?"
+          }
+        },
+        "placeholders": {
+          "purpose": "Dela dina tankar om syfte och mening...",
+          "values": "Reflektera över dina värderingar...",
+          "fulfillment": "Beskriv vad som ger dig tillfredsställelse..."
+        }
+      },
+      "step3": {
+        "title": "Föreställ Dig Nya Möjligheter",
+        "description": "Baserat på dina reflektioner, vilka nya aktiviteter eller förändringar skulle kunna hjälpa dig att bidra mer meningsfullt till positiv förändring?",
+        "placeholder": "Beskriv de möjligheter du ser för meningsfullt bidragande..."
+      }
+    },
+    "cta": {
+      "title": "Dela Din Resa",
+      "description": "Anslut dig till andra som är på liknande resor av reflektion och handling.",
+      "button": "Gå med i vår gemenskap"
+    }
+  }
+}

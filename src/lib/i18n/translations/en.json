@@ -1,0 +1,157 @@
+{
+  "common": {
+    "movement-name": "The Butterfly Movement"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "issues": "Global Issues",
+    "reflect": "Self-Reflection",
+    "children": "Involving Children",
+    "join": "Join Discord"
+  },
+  "footer": {
+    "description": "A global community working together to address our planet's most pressing challenges through reflection, collaboration, and meaningful action.",
+    "links": "Quick links",
+    "social": "Connect",
+    "movement": "The Butterfly Movement",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "home": {
+    "meta": {
+      "title": "The Butterfly Movement - Transforming Together",
+      "description": "Join a global movement dedicated to addressing our planet's most pressing challenges through reflection, collaboration, and action."
+    },
+    "hero": {
+      "title": "Transforming Together",
+      "description": "A global movement dedicated to addressing our planet's most pressing challenges through reflection, collaboration, and action.",
+      "join": "Join Our Discord",
+      "explore": "Explore Global Issues"
+    },
+    "issues": {
+      "title": "Key Global Challenges",
+      "climate": {
+        "title": "Climate Change",
+        "description": "Addressing the urgent crisis of global climate change and environmental degradation."
+      },
+      "inequality": {
+        "title": "Social Inequality",
+        "description": "Working towards a more equitable world with fair opportunities for all."
+      },
+      "future": {
+        "title": "Future Generations",
+        "description": "Ensuring a thriving planet for children and future generations."
+      }
+    },
+    "cta": {
+      "title": "Start Your Journey",
+      "description": "Begin with self-reflection and discover how you can contribute to positive change in your own unique way.",
+      "button": "Try Self-Reflection Tool"
+    },
+    "community": {
+      "title": "Join Our Community",
+      "description": "Connect with like-minded individuals worldwide, share ideas, and coordinate meaningful actions through our Discord community.",
+      "join": "Join Discord"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About The Butterfly Movement",
+      "description": "Learn about our mission to create positive global change through reflection, collaboration, and action."
+    },
+    "hero": {
+      "title": "About The Butterfly Movement",
+      "description": "A global community working together to address our world's most pressing challenges through meaningful action and transformation."
+    },
+    "origin": {
+      "title": "Our Story",
+      "paragraph1": "The Butterfly Movement emerged from a simple yet powerful idea: that meaningful change starts with individual reflection but grows through collective action. Founded in 2024 by Björn Kenneth Holmström alongside the establishment of Fjärilspartiet in Sweden, the movement represents a global extension of these transformative ideals.",
+      "paragraph2": "Today, we're building a worldwide community of individuals committed to addressing global challenges through thoughtful reflection, meaningful dialogue, and coordinated action. Our approach emphasizes the interconnected nature of global issues and the importance of inclusive, collaborative solutions."
+    },
+    "principles": {
+      "title": "Our Core Principles",
+      "global": {
+        "title": "Global Perspective",
+        "description": "Understanding the interconnected nature of worldwide challenges and fostering solutions that transcend borders."
+      },
+      "collective": {
+        "title": "Collective Action",
+        "description": "Bringing people together to create meaningful change through collaboration and shared purpose."
+      },
+      "transformation": {
+        "title": "Personal Growth",
+        "description": "Encouraging individual reflection and development as catalysts for broader social change."
+      }
+    },
+    "vision": {
+      "title": "Our Vision for the Future",
+      "paragraph1": "We envision a world where global challenges are addressed through thoughtful collaboration, where every individual has the opportunity to contribute meaningfully to positive change, and where the interconnected nature of our challenges is met with equally interconnected solutions.",
+      "paragraph2": "Through our community, tools, and resources, we're working to make this vision a reality, one step at a time. We believe that by combining personal reflection with collective action, we can create lasting positive change for current and future generations."
+    }
+  },
+  "reflect": {
+    "meta": {
+      "title": "Self-Reflection Tool - The Butterfly Movement",
+      "description": "Discover how you can contribute to positive change through guided self-reflection."
+    },
+    "hero": {
+      "title": "Self-Reflection Tool",
+      "description": "Begin your journey of discovering how you can contribute to meaningful change."
+    },
+    "intro": {
+      "paragraph1": "Change begins with understanding ourselves and how we can best contribute to the world. This tool guides you through a process of self-reflection to help you identify your unique path to making a difference.",
+      "paragraph2": "Take your time with each step, being honest and thoughtful in your responses. Remember, there are no right or wrong answers – this is about discovering your personal way to contribute."
+    },
+    "exercise": {
+      "title": "Your Self-Reflection Journey",
+      "step1": {
+        "title": "Document Your Current Activities",
+        "description": "List your regular activities, sorting them into the following categories:",
+        "categories": {
+          "essential": "Essential Activities",
+          "optional": "Optional Activities",
+          "timeConsuming": "Time-Consuming but Less Fulfilling"
+        },
+        "placeholders": {
+          "essential": "E.g., work tasks, family care, health maintenance...",
+          "optional": "E.g., hobbies, social media, entertainment...",
+          "timeConsuming": "E.g., excessive meetings, unfocused browsing..."
+        }
+      },
+      "step2": {
+        "title": "Reflect on Your Why",
+        "questions": {
+          "purpose": {
+            "title": "Purpose and Meaning",
+            "description": "What activities bring you the most sense of purpose and why?"
+          },
+          "values": {
+            "title": "Values Alignment",
+            "description": "Which of your current activities best align with your core values?"
+          },
+          "fulfillment": {
+            "title": "Personal Fulfillment",
+            "description": "What activities make you feel most energized and fulfilled?"
+          }
+        },
+        "placeholders": {
+          "purpose": "Share your thoughts on purpose and meaning...",
+          "values": "Reflect on your values alignment...",
+          "fulfillment": "Describe what brings you fulfillment..."
+        }
+      },
+      "step3": {
+        "title": "Envision New Possibilities",
+        "description": "Based on your reflections, what new activities or changes could help you contribute more meaningfully to positive change?",
+        "placeholder": "Describe the possibilities you see for meaningful contribution..."
+      }
+    },
+    "cta": {
+      "title": "Share Your Journey",
+      "description": "Connect with others who are on similar journeys of reflection and action.",
+      "button": "Join Our Community"
+    }
+  }
+}
