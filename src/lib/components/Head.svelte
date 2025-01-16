@@ -5,12 +5,17 @@
 
   export let title: string;
   export let description: string;
-  export let image = '/og-image.jpg'; // default social image
+  export let image = undefined;
   
-  $: alternateUrls = ['en', 'sv'].map(lang => ({
-    lang,
-    url: `${$page.url.origin}/${lang}${$page.url.pathname}`
-  }));
+  // Modified to correctly handle alternate URLs
+  $: alternateUrls = ['en', 'sv'].map(lang => {
+    const currentPath = $page.url.pathname;
+    const currentLang = currentPath.split('/')[1];
+    return {
+      lang,
+      url: `${$page.url.origin}${currentPath.replace(`/${currentLang}`, `/${lang}`)}`
+    };
+  });
 </script>
 
 <svelte:head>
@@ -22,13 +27,17 @@
   <meta property="og:url" content={$page.url.href} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:image" content={image} />
+  {#if image}
+    <meta property="og:image" content={image} />
+  {/if}
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={image} />
+  {#if image}
+    <meta name="twitter:image" content={image} />
+  {/if}
   
   <!-- Language alternates -->
   {#each alternateUrls as { lang, url }}
@@ -40,6 +49,6 @@
   {/each}
   <link
     rel="canonical"
-    href={`${$page.url.origin}/${$locale}${$page.url.pathname}`}
+    href={`${$page.url.origin}${$page.url.pathname}`}
   />
 </svelte:head>

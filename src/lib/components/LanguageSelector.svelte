@@ -24,9 +24,8 @@
   
   function handleSelect(newLocale: string) {
     const currentPath = $page.url.pathname;
-    const pathParts = currentPath.split('/');
-    pathParts[1] = newLocale; // Replace language segment
-    const newPath = pathParts.join('/');
+    const currentLang = currentPath.split('/')[1];
+    const newPath = currentPath.replace(`/${currentLang}`, `/${newLocale}`);
     
     language.set(newLocale);
     goto(newPath);

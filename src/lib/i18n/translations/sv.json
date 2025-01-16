@@ -19,6 +19,31 @@
     "privacy": "Integritetspolicy",
     "contact": "Kontakt"
   },
+  "contact": {
+    "meta": {
+      "title": "Kontakt - Fjärilsrörelsen",
+      "description": "Kom i kontakt med Fjärilsrörelsen. Vi är här för att lyssna, samarbeta och ta steg framåt tillsammans."
+    },
+    "title": "Kontakta oss",
+    "form": {
+      "name": "Namn",
+      "email": "E-post",
+      "subject": "Ämne",
+      "message": "Meddelande",
+      "sending": "Skickar...",
+      "send": "Skicka meddelande",
+      "success": "Tack för ditt meddelande! Vi återkommer till dig snart.",
+      "error": "Ett fel uppstod när formuläret skickades. Försök igen."
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Integritetspolicy - Fjärilsrörelsen",
+      "description": "Läs om hur Fjärilsrörelsen skyddar din integritet och hanterar din personliga information."
+    },
+    "title": "Integritetspolicy",
+    "last_updated": "Senast uppdaterad"
+  },
   "home": {
     "meta": {
       "title": "Fjärilsrörelsen - Förändras Tillsammans",
@@ -225,8 +250,13 @@
       "solutions": "Vad som kan göras",
       "related_issues": "Relaterade utmaningar"
     },
+    "list_sections": {
+      "top10_title": "De 10 mest angelägna frågorna",
+      "extended_title": "Ytterligare globala utmaningar"
+    },
     "climate-change": {
       "short_title": "Klimatförändring",
+      "summary": "De sammanlänkade kriserna av global uppvärmning, förlust av biologisk mångfald och miljöförstörelse som hotar jordens livsuppehållande system.",
       "meta": {
         "title": "Klimatförändringar och Miljöförstöring",
         "description": "Förstå de sammankopplade kriserna kring klimatförändringar och miljöförstöring, deras påverkan och lösningar."
@@ -260,39 +290,533 @@
       ]
     },
     "inequality": {
-      "short_title": "Ojämlikhet"
+      "short_title": "Ojämlikhet",
+      "summary": "Växande skillnader i rikedom, möjligheter och tillgång till resurser, vilket underminerar social stabilitet och mänsklig potential.",
+      "meta": {
+        "title": "Social och ekonomisk ojämlikhet",
+        "description": "Förstå hur ojämlikhet påverkar global utveckling, krisberedskap och mänsklig potential, samt utforska lösningar för en mer rättvis värld."
+      },
+      "title": "Social och ekonomisk ojämlikhet",
+      "introduction": "Det näst viktigaste problemet som vår planet står inför idag är social och ekonomisk ojämlikhet. Detta problem är djupt sammankopplat med miljöutmaningar och påverkar den globala förmågan att effektivt hantera kriser. Ojämlikhet underminerar vår kollektiva kapacitet att möta utmaningar och förvärrar samtidigt cykler av nackdelar.",
+      "key_aspects": [
+        {
+          "title": "Tillgång till resurser",
+          "description": "Ojämlikhet innebär att miljarder människor saknar tillgång till grundläggande behov som rent vatten, sjukvård, utbildning och näringsrik mat, vilket förvärrar fattigdomscykler."
+        },
+        {
+          "title": "Sårbarhet för kriser",
+          "description": "Marginaliserade befolkningar drabbas oproportionerligt av klimatförändringar, pandemier och ekonomiska nedgångar, med färre resurser för att anpassa sig eller återhämta sig."
+        },
+        {
+          "title": "Social oro",
+          "description": "Ojämlikhet skapar splittring, missnöje och konflikter inom och mellan samhällen, vilket destabiliserar samhällen och nationer."
+        },
+        {
+          "title": "Förlorad potential",
+          "description": "När stora delar av befolkningen utesluts från möjligheter förlorar samhället deras potentiella bidrag, vilket hämmar innovation och framsteg."
+        }
+      ],
+      "connections_list": [
+        "Miljörättvisa: De som är minst ansvariga för miljöförstöring drabbas ofta värst av dess effekter, vilket understryker behovet av rättvisa lösningar.",
+        "Ekonomiska system: Nuvarande modeller prioriterar vinst framför välbefinnande, vilket förvärrar både miljöskador och ojämlikhet.",
+        "Globalt samarbete: Ojämlikhet skapar hinder för kollektiv handling, eftersom länder och samhällen med olika behov har svårt att hitta gemensamma lösningar."
+      ],
+      "solutions_list": [
+        {
+          "title": "Omfördelning av resurser",
+          "description": "Inför progressiv beskattning, universell basinkomst eller andra mekanismer för att säkerställa en rättvisare fördelning av rikedom."
+        },
+        {
+          "title": "Investera i utbildning och hälsovård",
+          "description": "Stärk individer genom att göra grundläggande tjänster tillgängliga för alla."
+        },
+        {
+          "title": "Stärka sociala skyddsnät",
+          "description": "Ge stöd under kriser för att minska sårbarhet och främja resiliens."
+        },
+        {
+          "title": "Främja inkluderande styrning",
+          "description": "Säkerställ att mångfaldiga röster, särskilt från marginaliserade grupper, inkluderas i beslutsfattandet."
+        },
+        {
+          "title": "Främja ekonomisk rättvisa",
+          "description": "Övergå till hållbara ekonomiska modeller som prioriterar välbefinnande framför BNP-tillväxt."
+        }
+      ]
     },
     "governance": {
-      "short_title": "Styrning"
+      "short_title": "Styrning",
+     "summary": "Bristen på effektiva, inkluderande och anpassningsbara globala styrningssystem som krävs för att hantera våra gemensamma utmaningar.",
+      "meta": {
+        "title": "Global styrning och ledarskapskris",
+        "description": "Analysera utmaningarna med global styrning och ledarskap i att hantera sammanlänkade globala frågor, samt utforska vägar till mer effektivt internationellt samarbete."
+      },
+      "title": "Global styrning och ledarskapskris",
+      "introduction": "Den tredje mest angelägna frågan som vår planet står inför är bristen på effektiv, inkluderande och anpassningsbar global styrning. Denna kris utgör ett kritiskt hinder för att lösa de sammanlänkade utmaningar vi står inför och undergräver vår kollektiva förmåga att hantera akuta globala problem.",
+      "key_aspects": [
+        {
+          "title": "Fragmenterat beslutsfattande",
+          "description": "Globala problem kräver samordnade globala lösningar, men internationella institutioner saknar ofta den auktoritet eller det samarbete som krävs för att agera beslutsamt. Nationella intressen överskuggar ofta det kollektiva välbefinnandet."
+        },
+        {
+          "title": "Kortfristigt fokus",
+          "description": "Politiska och affärsledare prioriterar ofta kortsiktiga vinster framför långsiktig hållbarhet, drivna av valcykler, marknadspåtryckningar och den allmänna opinionen."
+        },
+        {
+          "title": "Förtroendekris",
+          "description": "Brist på tillit till ledarskap och institutioner hindrar kollektivt agerande. Desinformation och polariserade medier förvärrar problemet, vilket leder till apati och desillusion."
+        }
+      ],
+      "connections_list": [
+        "Klimatåtgärder: Ineffektiv styrning leder till missade klimatmål och förvärrade miljöpåverkningar.",
+        "Folkhälsa: Globala ojämlikheter i pandemibekämpning och vaccinfördelning återspeglar styrningsmisslyckanden.",
+        "Internationella relationer: Eskalerande geopolitiska spänningar underminerar samarbetet kring gemensamma utmaningar."
+      ],
+      "solutions_list": [
+        {
+          "title": "Stärk multilaterala institutioner",
+          "description": "Reformera organ som FN för att göra dem mer inkluderande, transparenta och effektiva i att hantera globala kriser."
+        },
+        {
+          "title": "Främja transparent ledarskap",
+          "description": "Uppmuntra ledare att prioritera ärlighet, ansvarstagande och etisk styrning."
+        },
+        {
+          "title": "Stärk gräsrotsinflytande",
+          "description": "Ge lokala och samhällsdrivna initiativ möjlighet att komplettera globala insatser och hålla ledare ansvariga."
+        },
+        {
+          "title": "Innovativa styrningsmodeller",
+          "description": "Utforska anpassningsbara system, såsom deltagardemokrati eller AI-assisterat beslutsfattande, för att hantera komplexa och snabbt föränderliga frågor."
+        }
+      ]
     },
     "technology": {
-      "short_title": "Teknologi"
+      "short_title": "Teknologi",
+      "summary": "De etiska och samhälleliga implikationerna av snabb teknologisk utveckling, från AI och automation till integritet och digitala klyftor.",
+      "meta": {
+        "title": "Etisk och samhällelig påverkan av snabb teknologisk utveckling",
+        "description": "Utforska de komplexa utmaningar och möjligheter som teknologiska framsteg medför och arbeta för att säkerställa att teknologin tjänar mänsklighetens bästa intressen."
+      },
+      "title": "Etisk och samhällelig påverkan av snabb teknologisk utveckling",
+      "introduction": "Den fjärde mest angelägna frågan som vår planet står inför är den etiska och samhälleliga påverkan av snabb teknologisk utveckling. Även om teknologin erbjuder transformativa lösningar på många globala utmaningar, skapar dess oreglerade tillväxt också betydande risker och ojämlikheter som måste hanteras noggrant.",
+      "key_aspects": [
+        {
+          "title": "Förskjutning och ojämlikhet",
+          "description": "Automation och AI omformar ekonomier, förskjuter arbetstagare och förvärrar ekonomiska klyftor. Utan rätt politik kommer gapet mellan dem som gynnas av teknologiska framsteg och dem som lämnas utanför att fortsätta växa."
+        },
+        {
+          "title": "Integritet och övervakning",
+          "description": "Digitala teknologier har möjliggjort enastående nivåer av övervakning och datainsamling, ofta med otillräcklig tillsyn. Detta hotar individuella friheter och demokratisk styrning."
+        },
+        {
+          "title": "Etiska dilemman",
+          "description": "Frågor som AI-bias, desinformation och autonoma vapen utmanar befintliga etiska ramverk och kräver omedelbar uppmärksamhet för att säkerställa att teknologin tjänar mänskligheten snarare än skadar den."
+        },
+        {
+          "title": "Miljöpåverkan",
+          "description": "Tekniksektorn bidrar i sig till miljöproblem, från e-avfall till energikrav från datacenter och kryptovalutabrytning."
+        },
+        {
+          "title": "Förlust av mänsklig kontakt",
+          "description": "Överberoende av teknologi kan urholka mellanmänskliga relationer, mental hälsa och känslan av gemenskap, eftersom fler interaktioner sker online."
+        }
+      ],
+      "connections_list": [
+        "Klimatförändringar: Teknologi kan antingen hjälpa till att lösa eller förvärra miljöutmaningar, beroende på hur den utvecklas och används.",
+        "Social ojämlikhet: Teknologiska framsteg kan antingen överbrygga eller fördjupa befintliga sociala och ekonomiska klyftor.",
+        "Global styrning: Utvecklingen av teknologi kräver samordnad tillsyn och etiska ramverk på global nivå."
+      ],
+      "solutions_list": [
+        {
+          "title": "Anta människocentrerad design",
+          "description": "Säkerställ att teknologier skapas med etiska överväganden och samhälleligt välbefinnande som kärna."
+        },
+        {
+          "title": "Reglera ansvarsfullt",
+          "description": "Utveckla policyer som främjar rättvisa, transparens och ansvarstagande i utveckling och användning av teknologi."
+        },
+        {
+          "title": "Investera i utbildning och omskolning",
+          "description": "Utrusta människor med färdigheter för att lyckas i en föränderlig värld, minska ojämlikheter och förbereda för framtidens arbetsmarknader."
+        },
+        {
+          "title": "Uppmuntra globalt samarbete",
+          "description": "Skapa internationella ramverk för att hantera frågor som AI-styrning, dataintegritet och teknologisk etik."
+        },
+        {
+          "title": "Främja digital kompetens",
+          "description": "Utbilda allmänheten i att navigera i en teknikdriven värld, ge individer möjlighet att fatta informerade beslut och motstå desinformation."
+        }
+      ]
     },
     "population": {
-      "short_title": "Befolkning"
+      "short_title": "Befolkning",
+      "summary": "Utmaningarna med hållbar utveckling när städer expanderar och den globala befolkningen ökar, vilket belastar resurser och system.",
+      "meta": {
+        "title": "Befolkningstillväxt och urbanisering",
+        "description": "Förstå utmaningarna med global befolkningstillväxt och snabb urbanisering, samt utveckla hållbara lösningar för framtida städer och samhällen."
+      },
+      "title": "Befolkningstillväxt och urbanisering",
+      "introduction": "Den femte mest angelägna frågan som vår planet står inför är befolkningstillväxt och snabb urbanisering. När städer expanderar och den globala befolkningen ökar, står vi inför kritiska utmaningar inom resurshantering, stadsplanering och social rättvisa som kräver innovativa och hållbara lösningar.",
+      "key_aspects": [
+        {
+          "title": "Resursbelastning",
+          "description": "När den globala befolkningen växer, ökar efterfrågan på ändliga resurser som vatten, mat och energi. Snabba konsumtionshastigheter hotar hållbarheten och förvärrar miljöförstöringen."
+        },
+        {
+          "title": "Stadsöverbelastning",
+          "description": "Till 2050 förväntas över 70 % av världens befolkning bo i urbana områden. Utan korrekt planering kan detta leda till överfulla städer, otillräcklig infrastruktur och överbelastade offentliga tjänster."
+        },
+        {
+          "title": "Biologisk mångfald och markanvändning",
+          "description": "Stadsexpansion sker ofta på bekostnad av naturliga livsmiljöer, vilket bidrar till avskogning, förlust av biologisk mångfald och störningar i ekosystem."
+        },
+        {
+          "title": "Avfallshantering",
+          "description": "Höga befolkningstätheter producerar stora mängder avfall som ofta överstiger städernas kapacitet att hantera det hållbart, vilket leder till föroreningar och hälsorisker."
+        },
+        {
+          "title": "Sociala ojämlikheter",
+          "description": "Urbanisering förstärker ofta socioekonomiska skillnader. Marginaliserade grupper kan hamna i överfulla och underförsörjda områden, utan tillgång till grundläggande behov som rent vatten, utbildning och sjukvård."
+        }
+      ],
+      "connections_list": [
+        "Klimatförändringar: Urbana områden är betydande källor till koldioxidutsläpp, både genom energiförbrukning och transportsystem.",
+        "Teknologisk påverkan: Städer är nav för innovation men också hotspots för övervakning, dataexploatering och digitala klyftor.",
+        "Sociala system: Överbefolkning belastar styrning, hälso- och sjukvård samt utbildningssystem, vilket minskar deras effektivitet."
+      ],
+      "solutions_list": [
+        {
+          "title": "Främja hållbar stadsplanering",
+          "description": "Utforma städer för att vara mer energieffektiva, med grönområden, förnybara energisystem och hållbara kollektivtrafiklösningar."
+        },
+        {
+          "title": "Förbättra familjeplanering och utbildning",
+          "description": "Tillhandahåll tillgång till utbildning, sjukvård och familjeplaneringstjänster för att ge individer möjlighet att fatta informerade beslut om reproduktion."
+        },
+        {
+          "title": "Stöd decentralisering",
+          "description": "Uppmuntra utveckling i landsbygds- och förortsområden för att minska trycket på storstäder och skapa en mer balanserad befolkningsfördelning."
+        },
+        {
+          "title": "Inför cirkulära ekonomier",
+          "description": "Skapa system som minskar avfall, återvinner resurser och minimerar miljöpåverkan."
+        },
+        {
+          "title": "Främja motståndskraftig infrastruktur",
+          "description": "Investera i infrastruktur som kan anpassas till befolkningstillväxt, inklusive vattenhanteringssystem, förnybar energi och digital anslutning."
+        }
+      ]
     },
     "health": {
-      "short_title": "Hälsa"
+      "short_title": "Hälsa",
+      "summary": "Behovet av robusta hälsosystem och internationellt samarbete för att hantera nuvarande och framtida hälsokriser.",
+      "meta": {
+        "title": "Global hälsa och pandemiberedskap",
+        "description": "Att hantera globala hälsoutmaningar, pandemiberedskap och behovet av rättvisa, motståndskraftiga hälsosystem i en sammanlänkad värld."
+      },
+      "title": "Global hälsa och pandemiberedskap",
+      "introduction": "Den sjätte mest angelägna frågan som vår planet står inför är global hälsa och pandemiberedskap. Denna fråga har fått ökad betydelse under de senaste åren på grund av COVID-19-pandemin, som blottlade sårbarheter i globala hälsosystem och betonade sambandet mellan mänsklig och miljömässig hälsa.",
+      "key_aspects": [
+        {
+          "title": "Pandemier och nya sjukdomar",
+          "description": "Ökad mänsklig påverkan på naturliga livsmiljöer, globalt resande och klimatförändringar bidrar till uppkomsten och den snabba spridningen av infektionssjukdomar."
+        },
+        {
+          "title": "Ojämlikhet i vården",
+          "description": "Skillnader i tillgång till sjukvård, vacciner och behandlingar lämnar många befolkningsgrupper sårbara, vilket förvärrar cykler av sjukdom och fattigdom."
+        },
+        {
+          "title": "Antimikrobiell resistens",
+          "description": "Överanvändning och felanvändning av antibiotika och andra behandlingar leder till resistenta stammar av bakterier och virus, vilket gör tidigare behandlingsbara sjukdomar potentiellt dödliga."
+        },
+        {
+          "title": "Mental hälsokris",
+          "description": "Ökande nivåer av ångest, depression och andra psykiska hälsotillstånd förbises ofta men har djupa effekter på individer och samhällen."
+        },
+        {
+          "title": "Hälsosystem under press",
+          "description": "Många hälsosystem är underfinansierade, underbemannade eller otillräckligt utrustade för att hantera storskaliga kriser, vilket lämnar befolkningar i riskzonen under nödsituationer."
+        }
+      ],
+      "connections_list": [
+        "Befolkningstillväxt: Täta urbana befolkningar är särskilt mottagliga för sjukdomsutbrott på grund av trånga bostäder och delade resurser.",
+        "Klimatförändringar: Förändrade ekosystem för människor och djur närmare varandra, vilket ökar risken för zoonotiska sjukdomar.",
+        "Ojämlikhet: Marginaliserade grupper står inför de största hälsoriskerna på grund av begränsad tillgång till resurser och stöd."
+      ],
+      "solutions_list": [
+        {
+          "title": "Stärk globala hälsosystem",
+          "description": "Investera i robust och motståndskraftig hälsoinfrastruktur, särskilt i underförsörjda regioner."
+        },
+        {
+          "title": "Förbättra pandemiberedskapen",
+          "description": "Utveckla tidiga varningssystem, stärk internationellt samarbete och skapa lager av viktiga resurser som vacciner och skyddsutrustning."
+        },
+        {
+          "title": "Hantera antimikrobiell resistens",
+          "description": "Främja ansvarsfull användning av antibiotika, investera i nya behandlingar och implementera globala övervakningssystem."
+        },
+        {
+          "title": "Utöka tjänster för mental hälsa",
+          "description": "Integrera mental hälsa i primärvården, minska stigmat och tillhandahåll tillgängliga stödsystem."
+        },
+        {
+          "title": "Främja One Health-strategier",
+          "description": "Erkänn sambandet mellan mänsklig, djur- och miljöhälsa och främja holistiska policyer som adresserar alla tre."
+        }
+      ]
     },
     "education": {
-      "short_title": "Utbildning"
+      "short_title": "Utbildning",
+      "summary": "Att säkerställa kvalitativ utbildning och tillgång till kunskap för alla som nyckeldrivkrafter för hållbar utveckling och mänskligt välmående.",
+      "meta": {
+        "title": "Utbildning och tillgång till kunskap",
+        "description": "Förstå utbildningens avgörande roll i att stärka individer och samhällen, och arbeta för att säkerställa rättvis tillgång till kvalitativa lärandemöjligheter globalt."
+      },
+      "title": "Utbildning och tillgång till kunskap",
+      "introduction": "Den sjunde mest angelägna frågan som vår planet står inför idag är utbildning och tillgång till kunskap. Utbildning är en grundläggande drivkraft för individuell egenmakt, samhällelig utveckling och hållbar utveckling. Dock kvarstår hinder för kvalitativ utbildning globalt, vilket förvärrar ojämlikhet och hindrar kollektiv problemlösning.",
+      "key_aspects": [
+        {
+          "title": "Globala ojämlikheter i utbildning",
+          "description": "Miljontals barn saknar tillgång till grundläggande utbildning, där flickor, flyktingar och marginaliserade samhällen drabbas oproportionerligt."
+        },
+        {
+          "title": "Bristande anpassning till framtidens behov",
+          "description": "Traditionella utbildningssystem misslyckas ofta med att förse elever med kritiskt tänkande, kreativitet och problemlösningsförmåga som krävs för att möta moderna utmaningar som klimatförändringar, teknologiska omvälvningar och global ojämlikhet."
+        },
+        {
+          "title": "Den digitala klyftan",
+          "description": "Även om teknologin har revolutionerat tillgången till kunskap, saknar många människor infrastruktur, färdigheter eller resurser för att dra nytta av digitala lärandemöjligheter."
+        },
+        {
+          "title": "Utbildning för hållbarhet",
+          "description": "Utan bred utbildning om hållbarhet, klimatförändringar och globalt medborgarskap kan mänskligheten inte övergå till mer hållbara levnadssätt."
+        },
+        {
+          "title": "Påverkan på social stabilitet",
+          "description": "Brist på utbildning bidrar till fattigdomscykler, arbetslöshet och social oro, vilket destabiliserar samhällen och nationer."
+        }
+      ],
+      "connections_list": [
+        "Global hälsa: Utbildning främjar hälsosammare samhällen genom att lära individer om hygien, näring och sjukdomsprevention.",
+        "Teknologiska framsteg: Rättvisa utbildningssystem är avgörande för att minska den digitala klyftan och säkerställa att alla drar nytta av innovation.",
+        "Social ojämlikhet: Tillgång till kvalitativ utbildning är en hörnsten för att bryta fattigdomscykler och främja jämlikhet."
+      ],
+      "solutions_list": [
+        {
+          "title": "Universell tillgång till utbildning",
+          "description": "Prioritera investeringar i skolor, lärarutbildning och utbildningsresurser i underförsörjda områden."
+        },
+        {
+          "title": "Betona livslångt lärande",
+          "description": "Skapa möjligheter för människor i alla åldrar att lära sig nya färdigheter och anpassa sig till föränderliga samhällsbehov."
+        },
+        {
+          "title": "Stäng den digitala klyftan",
+          "description": "Utöka tillgången till prisvärd internetuppkoppling, enheter och digitala kompetensprogram."
+        },
+        {
+          "title": "Främja utbildning för hållbarhet",
+          "description": "Integrera ämnen som klimatförändringar, biologisk mångfald och etiska beslut i läroplaner över hela världen."
+        },
+        {
+          "title": "Stärk lokaliserad utbildning",
+          "description": "Anpassa utbildningssystem till att återspegla lokala kulturer, språk och sammanhang samtidigt som de bibehåller global relevans."
+        }
+      ]
     },
     "conflict": {
-      "short_title": "Konflikt"
+      "short_title": "Konflikt",
+      "summary": "Pågående krig, konflikter och geopolitiska spänningar som hotar fred, utveckling och internationellt samarbete.",
+      "meta": {
+        "title": "Konflikt, krig och geopolitisk instabilitet",
+        "description": "Analysera påverkan av globala konflikter och instabilitet på hållbar utveckling och utforska vägar till varaktig fred och internationellt samarbete."
+      },
+      "title": "Konflikt, krig och geopolitisk instabilitet",
+      "introduction": "Den åttonde mest angelägna frågan som vår planet står inför är konflikt, krig och geopolitisk instabilitet. Trots framsteg i att främja globalt samarbete utgör konflikter fortfarande ett betydande hinder för hållbar utveckling, social rättvisa och internationell fred.",
+      "key_aspects": [
+        {
+          "title": "Humanitära kriser",
+          "description": "Krig och konflikter leder till enormt mänskligt lidande, inklusive förlust av liv, fördrivning och långvariga trauman för överlevande. Flyktingskriser belastar resurser och sociala system i värdländer, vilket skapar globala spridningseffekter."
+        },
+        {
+          "title": "Miljöförstörelse",
+          "description": "Väpnade konflikter resulterar ofta i avskogning, föroreningar och förstörelse av ekosystem, vilket förvärrar miljöutmaningar. Militära operationer har dessutom betydande koldioxidavtryck."
+        },
+        {
+          "title": "Ekonomisk påverkan",
+          "description": "Krig omdirigerar resurser från utbildning, sjukvård och infrastruktur, vilket hämmar långsiktig utveckling. Instabilitet stör globala leveranskedjor och ökar ekonomisk ojämlikhet."
+        },
+        {
+          "title": "Erosion av förtroende",
+          "description": "Konflikter fördjupar klyftorna mellan nationer och samhällen, vilket gör det svårare att bygga samarbete kring globala utmaningar som klimatförändringar eller hälsokriser."
+        },
+        {
+          "title": "Spridning av vapen",
+          "description": "Spridningen av avancerade vapen, inklusive kärnvapen, ökar risken för katastrofala konflikter som kan få globala konsekvenser."
+        }
+      ],
+      "connections_list": [
+        "Global ojämlikhet: Ekonomiska skillnader bidrar ofta till spänningar som leder till konflikt.",
+        "Utbildning och hälsa: Långvarig instabilitet stör tillgången till grundläggande tjänster, vilket skapar långsiktiga utvecklingshinder.",
+        "Klimatförändringar: Resursbrist på grund av miljöförstöring kan förvärra spänningar och utlösa konflikter."
+      ],
+      "solutions_list": [
+        {
+          "title": "Stärk mekanismer för konfliktlösning",
+          "description": "Investera i diplomati och medling för att lösa tvister innan de eskalerar, och stöd internationella institutioner som FN för att främja fredliga förhandlingar."
+        },
+        {
+          "title": "Åtgärda grundorsakerna",
+          "description": "Fokusera på att minska ojämlikhet, säkerställa resursförsörjning och hantera systemiska orättvisor som driver konflikter."
+        },
+        {
+          "title": "Främja nedrustning",
+          "description": "Arbeta för globala avtal för att minska spridningen av vapen, särskilt kärnvapen och andra massförstörelsevapen."
+        },
+        {
+          "title": "Stärk lokala samhällen",
+          "description": "Stöd gräsrotsinitiativ som bygger fred och motståndskraft på lokal nivå."
+        },
+        {
+          "title": "Främja internationellt samarbete",
+          "description": "Stärk allianser och avtal som prioriterar gemensam säkerhet och kollektivt välbefinnande över konkurrens och splittring."
+        }
+      ]
     },
     "water": {
-      "short_title": "Vattenkris"
+      "short_title": "Vattenkris",
+      "summary": "Växande utmaningar med tillgången till rent vatten, som påverkar mänsklig hälsa, livsmedelssäkerhet och ekosystemens stabilitet.",
+      "meta": {
+        "title": "Global vattenkris",
+        "description": "Förstå den globala vattenkrisen och dess påverkan på mänsklig hälsa, livsmedelssäkerhet och miljömässig hållbarhet."
+      },
+      "title": "Global vattenkris",
+      "introduction": "Den nionde mest angelägna frågan som vår planet står inför idag är den globala vattenkrisen. Tillgång till rent och tillräckligt vatten är grundläggande för livet, men miljarder människor står inför vattenbrist, dålig sanitet eller förorenade vattenkällor. Denna kris hotar inte bara människors hälsa utan undergräver också livsmedelssäkerhet, ekonomisk utveckling och miljömässig hållbarhet.",
+      "key_aspects": [
+        {
+          "title": "Vattenbrist",
+          "description": "Över 2 miljarder människor lever i vattenstressade regioner, och klimatförändringar förvärrar problemet genom att förändra nederbördsmönster och tömma färskvattenkällor."
+        },
+        {
+          "title": "Förorenat vatten",
+          "description": "Nästan 1 av 4 människor globalt saknar tillgång till säkert dricksvatten, vilket leder till sjukdomar som kolera, diarré och dysenteri."
+        },
+        {
+          "title": "Påverkan på jordbruket",
+          "description": "Jordbruk står för 70 % av den globala färskvattenanvändningen. Vattenbrist påverkar direkt livsmedelsproduktionen och hotar den globala livsmedelssäkerheten."
+        },
+        {
+          "title": "Miljöförstöring",
+          "description": "Överanvändning och förorening av vattenkällor skadar ekosystem och leder till förlust av biologisk mångfald samt försämring av floder, sjöar och våtmarker."
+        },
+        {
+          "title": "Social ojämlikhet",
+          "description": "Sårbara befolkningsgrupper, särskilt i utvecklingsländer, drabbas oproportionerligt av vattenbrist och föroreningar, vilket förvärrar fattigdom och ojämlikhet."
+        }
+      ],
+      "connections_list": [
+        "Klimatförändringar: Stigande temperaturer och oförutsägbara vädermönster ökar torka, översvämningar och smältning av glaciärer, vilket förvärrar vattenbristen.",
+        "Urbanisering: Snabb urban tillväxt sätter ytterligare press på vattensystem och överstiger ofta utvecklingen av infrastruktur.",
+        "Geopolitisk instabilitet: Tvister om delade vattenresurser kan leda till konflikter, särskilt i regioner där vatten redan är en bristvara."
+      ],
+      "solutions_list": [
+        {
+          "title": "Förbättra vattenhantering",
+          "description": "Implementera effektiva bevattningstekniker, regnvatteninsamling och återvinning av avloppsvatten för att minska överanvändning och slöseri."
+        },
+        {
+          "title": "Investera i infrastruktur",
+          "description": "Bygg och underhåll motståndskraftiga vattensystem för att säkerställa tillgång till rent vatten och sanitet i både stads- och landsbygdsområden."
+        },
+        {
+          "title": "Skydda ekosystem",
+          "description": "Återställ våtmarker, floder och skogar för att bevara naturliga vattenkretslopp och bibehålla biologisk mångfald."
+        },
+        {
+          "title": "Främja utbildning och medvetenhet",
+          "description": "Utbilda samhällen om vattenbesparing och hygienpraxis för att minska slöseri och förhindra föroreningar."
+        },
+        {
+          "title": "Uppmuntra internationellt samarbete",
+          "description": "Främja avtal mellan nationer som delar vattenresurser för att säkerställa rättvis och hållbar användning."
+        }
+      ]
     },
     "cultural-diversity": {
-      "short_title": "Kulturell mångfald"
+      "short_title": "Kulturell mångfald",
+      "summary": "Den snabba nedgången i kulturell och språklig mångfald, som hotar mänsklig kunskap, identitet och sätt att förstå världen.",
+      "meta": {
+        "title": "Förlust av kulturell och språklig mångfald",
+        "description": "Förstå vikten av att bevara kulturell och språklig mångfald för mänsklig kunskap, identitet och innovation."
+      },
+      "title": "Förlust av kulturell och språklig mångfald",
+      "introduction": "Den tionde mest angelägna frågan som vår planet står inför idag är förlusten av kulturell och språklig mångfald. Även om den ofta överskuggas av miljö- och ekonomiska utmaningar, är denna fråga avgörande för att bevara rikedomarna i mänsklig identitet, kunskap och kreativitet.",
+      "key_aspects": [
+        {
+          "title": "Snabb utrotning av språk",
+          "description": "Varannan vecka dör ett språk, och med det försvinner en unik världsbild, traditionell kunskap och kulturell identitet. UNESCO uppskattar att nästan hälften av världens 7 000 språk riskerar att dö ut."
+        },
+        {
+          "title": "Homogenisering av kulturer",
+          "description": "Globalisering och urbanisering leder till dominansen av några få stora språk och kulturer, ofta på bekostnad av lokala traditioner, konstformer och praktiker."
+        },
+        {
+          "title": "Förlust av urfolkskunskap",
+          "description": "Många hotade språk och kulturer bär på ovärderlig kunskap om biologisk mångfald, hållbara metoder och lokala ekosystem, som kan erbjuda lösningar på globala utmaningar."
+        },
+        {
+          "title": "Erosion av identitet och gemenskap",
+          "description": "När kulturarvet går förlorat förlorar samhällen sin känsla av identitet och sammanhang, vilket leder till social fragmentering och utanförskap."
+        },
+        {
+          "title": "Påverkan på kreativitet och innovation",
+          "description": "Mångfald driver kreativitet. Förlusten av kulturell variation minskar mänsklighetens kollektiva förmåga att innovera och anpassa sig."
+        }
+      ],
+      "connections_list": [
+        "Miljöbevarande: Urfolkskulturer har ofta djup kunskap om hållbart leverne, vilket kan informera globala bevarandeinsatser.",
+        "Utbildning och ojämlikhet: Marginaliserade kulturer och språk utesluts ofta från mainstreamutbildning, vilket upprätthåller cykler av fattigdom och utanförskap.",
+        "Globalisering: Ekonomisk och kulturell globalisering prioriterar ofta effektivitet och vinst framför bevarandet av olika traditioner och identiteter."
+      ],
+      "solutions_list": [
+        {
+          "title": "Stöd språkligt bevarande",
+          "description": "Utveckla initiativ för att dokumentera och revitalisera hotade språk, till exempel genom att undervisa dem i skolor eller integrera dem i digitala plattformar."
+        },
+        {
+          "title": "Fira kulturarv",
+          "description": "Främja festivaler, konst och berättande som firar olika traditioner och historier."
+        },
+        {
+          "title": "Stärk urfolkssamhällen",
+          "description": "Erkänn och skydda urfolks rättigheter till deras mark, språk och kulturer."
+        },
+        {
+          "title": "Främja mångkulturell utbildning",
+          "description": "Inkludera olika kulturella perspektiv och historier i läroplaner för att bygga uppskattning och förståelse mellan samhällen."
+        },
+        {
+          "title": "Uppmuntra etisk globalisering",
+          "description": "Stöd policyer som balanserar global integration med skydd och främjande av kulturell mångfald."
+        }
+      ]
     },
     "meta": {
       "title": "Globala Utmaningar - Fjärilsrörelsen",
       "description": "Utforska de mest angelägna utmaningarna som vår värld står inför idag och hur de hänger ihop."
     },
     "hero": {
-      "title": "Globala Utmaningar",
-      "description": "Förstå de sammankopplade utmaningarna som formar vår världs framtid."
+      "title": "Vår tids globala utmaningar",
+      "description": "Vår värld står inför enastående utmaningar som kräver kollektiv handling och innovativa lösningar. Dessa sammanlänkade frågor formar vår nutid och framtid och kräver omedelbar uppmärksamhet och samordnade insatser från oss alla.",
+      "call_to_action": "Utforska hur dessa utmaningar är kopplade till och påverkar varandra, och upptäck sätt att bidra till deras lösningar.",
+      "stats": {
+        "primary": "Mest angelägna globala utmaningar",
+        "additional": "Relaterade utmaningar att hantera",
+        "connections": "Sammanlänkningar mellan frågor"
+      }
     },
     "diagram": {
       "title": "Den Sammankopplade Naturen hos Globala Utmaningar",
@@ -302,49 +826,6 @@
         "primary": "Primära Utmaningar",
         "secondary": "Sammankopplade Utmaningar",
         "connection": "Påverkar/Berör"
-      }
-    },
-    "top10": {
-      "title": "Topp 10 Mest Angelägna Utmaningar",
-      "climate": {
-        "title": "Klimatförändringar och Miljöförstöring",
-        "description": "De sammankopplade kriserna av global uppvärmning, förlust av biologisk mångfald och miljöförstörelse som hotar jordens livsuppehållande system."
-      },
-      "inequality": {
-        "title": "Social och Ekonomisk Ojämlikhet",
-        "description": "Växande klyftor i rikedom, möjligheter och tillgång till resurser, vilket undergräver social stabilitet och mänsklig potential."
-      },
-      "governance": {
-        "title": "Kris i Globalt Styre",
-        "description": "Bristen på effektiva, inkluderande och adaptiva globala styrsystem som behövs för att möta våra gemensamma utmaningar."
-      },
-      "technology": {
-        "title": "Teknologins Påverkan",
-        "description": "De etiska och samhälleliga implikationerna av snabb teknologisk utveckling, från AI och automation till integritet och digitala klyftor."
-      },
-      "population": {
-        "title": "Befolkningstillväxt och Urbanisering",
-        "description": "Utmaningar för hållbar utveckling när städer växer och världens befolkning ökar, vilket belastar resurser och system."
-      },
-      "health": {
-        "title": "Global Hälsa och Pandemiberedskap",
-        "description": "Behovet av robusta hälsosystem och internationellt samarbete för att hantera nuvarande och framtida hälsokriser."
-      },
-      "education": {
-        "title": "Utbildning och Kunskapstillgång",
-        "description": "Säkerställa kvalitativ utbildning och kunskapstillgång för alla som nyckeldrivkrafter för hållbar utveckling och mänskligt välmående."
-      },
-      "conflict": {
-        "title": "Konflikter och Geopolitisk Instabilitet",
-        "description": "Pågående krig, konflikter och geopolitiska spänningar som hotar fred, utveckling och internationellt samarbete."
-      },
-      "water": {
-        "title": "Global Vattenkris",
-        "description": "Växande utmaningar med tillgång till rent vatten, som påverkar mänsklig hälsa, livsmedelssäkerhet och ekosystemens stabilitet."
-      },
-      "cultural": {
-        "title": "Förlust av Kulturell och Språklig Mångfald",
-        "description": "Den snabba minskningen av kulturell och språklig mångfald, vilket hotar mänsklig kunskap, identitet och sätt att förstå världen."
       }
     },
     "extended": {

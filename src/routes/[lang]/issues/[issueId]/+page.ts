@@ -1,20 +1,17 @@
 // src/routes/[lang]/issues/[issueId]/+page.ts
 import { error } from '@sveltejs/kit';
+import { isValidIssueId, getIssueNumber } from '$lib/data/issues';
 import type { PageLoad } from './$types';
 
-export const load: PageLoad = async ({ params }) => {
-  const validIssues = [
-    'climate-change', 'inequality', 'governance', 'technology', 
-    'population', 'health', 'education', 'conflict', 
-    'water', 'cultural-diversity'
-  ];
+export const prerender = true;
 
-  if (!validIssues.includes(params.issueId)) {
+export const load: PageLoad = async ({ params }) => {
+  if (!isValidIssueId(params.issueId)) {
     throw error(404, 'Issue not found');
   }
 
   return {
     issueId: params.issueId,
-    issueNumber: validIssues.indexOf(params.issueId) + 1
+    issueNumber: getIssueNumber(params.issueId)
   };
 };

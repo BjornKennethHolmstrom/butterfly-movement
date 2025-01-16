@@ -25,7 +25,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
       <div class="flex items-center">
-        <a href="/" class="flex items-center" aria-label={$_('nav.home')}>
+        <a href={`/${currentLang}`} class="flex items-center" aria-label={$_('nav.home')}>
           <Logo width={40} height={40} />
           <span class="ml-2 text-xl font-semibold text-gray-900 dark:text-white">
             {$_('common.movement-name')}

@@ -7,7 +7,7 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import { theme } from '$lib/stores/settings';
-  import { initI18n } from '$lib/i18n/i18n';
+  import { initI18n } from '$lib/i18n/config';
 
   let mounted = false;
 

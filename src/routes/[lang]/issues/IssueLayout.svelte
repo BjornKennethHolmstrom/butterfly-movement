@@ -3,6 +3,7 @@
   import { page } from '$app/stores';
   import { _ } from 'svelte-i18n';
   import { ChevronLeft } from 'lucide-svelte';
+  import { getPreviousIssue, getNextIssue } from '$lib/data/issues';
  
   export let issueNumber: number;
   export let issueId: string;
@@ -17,6 +18,9 @@
     const totalHeight = mainContent.offsetHeight - window.innerHeight;
     progress = Math.min((scrollPosition / totalHeight) * 100, 100);
   }
+
+  $: previousIssue = getPreviousIssue(issueId);
+  $: nextIssue = getNextIssue(issueId);
 </script>
 
 <svelte:window on:scroll={updateReadingProgress} />
@@ -29,7 +33,7 @@
     <div
       class="h-full bg-blue-600 dark:bg-blue-400 transition-all duration-150"
       style="width: {progress}%"
-    />
+    ></div>
   </div>
 
   <!-- Navigation Header -->
@@ -46,22 +50,22 @@
         
         <!-- Issue Navigation -->
         <div class="flex items-center gap-4">
-          {#if issueNumber > 1}
+          {#if previousIssue}
             <a 
-              href={`/${$page.params.lang}/issues/${issueNumber - 1}`}
+              href={`/${$page.params.lang}/issues/${previousIssue.id}`}
               class="text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               ← {$_('issues.common.previous_issue')}
             </a>
           {/if}
-          
+
           <span class="text-sm text-gray-500 dark:text-gray-400">
             {$_('issues.common.issue')} {issueNumber} / 10
           </span>
-          
-          {#if issueNumber < 10}
+
+          {#if nextIssue}
             <a 
-              href={`/${$page.params.lang}/issues/${issueNumber + 1}`}
+              href={`/${$page.params.lang}/issues/${nextIssue.id}`}
               class="text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               {$_('issues.common.next_issue')} →

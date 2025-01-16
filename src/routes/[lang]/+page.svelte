@@ -96,7 +96,7 @@
             {$_('home.cta.description')}
           </p>
           <a
-            href="/reflect"
+            href="{currentLang}/reflect"
             class="bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors inline-block"
           >
             {$_('home.cta.button')}

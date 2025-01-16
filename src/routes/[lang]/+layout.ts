@@ -1,17 +1,19 @@
-// src/routes/[lang]/+layout.ts
+// src/routes/[lang]/ĺayout.ts
 import type { LayoutLoad } from './$types';
 import { language } from '$lib/stores/settings';
 import { redirect } from '@sveltejs/kit';
 
+export const prerender = true;
+
+const validLanguages = ['en', 'sv'];
+
 export const load: LayoutLoad = async ({ params }) => {
   const { lang } = params;
   
-  // Validate language
-  if (!['en', 'sv'].includes(lang)) {
+  if (!validLanguages.includes(lang)) {
     throw redirect(307, '/en');
   }
 
-  // Set the language in the store
   language.set(lang);
 
   return {

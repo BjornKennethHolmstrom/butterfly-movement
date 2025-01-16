@@ -70,14 +70,18 @@
           <div class="space-y-4">
             {#each ['essential', 'optional', 'timeConsuming'] as category}
               <div>
-                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label 
+                  for={`textarea-${category}`} 
+                  class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                >
                   {$_(`reflect.exercise.step1.categories.${category}`)}
                 </label>
                 <textarea
+                  id={`textarea-${category}`}
                   class="w-full h-24 px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md dark:bg-gray-700 dark:text-white"
                   bind:value={activities[category]}
                   placeholder={$_(`reflect.exercise.step1.placeholders.${category}`)}
-                />
+                ></textarea>
               </div>
             {/each}
           </div>
@@ -98,16 +102,20 @@
           <div class="space-y-6">
             {#each ['purpose', 'values', 'fulfillment'] as questionType}
               <div>
-                <h4 class="font-medium text-gray-900 dark:text-white mb-2">
+                <label 
+                  for={`textarea-${questionType}`}
+                  class="font-medium text-gray-900 dark:text-white mb-2"
+                >
                   {$_(`reflect.exercise.step2.questions.${questionType}.title`)}
-                </h4>
+                </label>
                 <p class="text-gray-600 dark:text-gray-300 mb-3">
                   {$_(`reflect.exercise.step2.questions.${questionType}.description`)}
                 </p>
                 <textarea
+                  id={`textarea-${questionType}`}
                   class="w-full h-24 px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md dark:bg-gray-700 dark:text-white"
                   placeholder={$_(`reflect.exercise.step2.placeholders.${questionType}`)}
-                />
+                ></textarea>
               </div>
             {/each}
           </div>
@@ -128,10 +136,11 @@
           <p class="text-gray-600 dark:text-gray-300 mb-4">
             {$_('reflect.exercise.step3.description')}
           </p>
-          <textarea
-            class="w-full h-32 px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md dark:bg-gray-700 dark:text-white"
-            placeholder={$_('reflect.exercise.step3.placeholder')}
-          />
+            <textarea
+              id="new-possibilities"
+              class="w-full h-32 px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md dark:bg-gray-700 dark:text-white"
+              placeholder={$_('reflect.exercise.step3.placeholder')}
+            ></textarea>
         </div>
       </div>
     </div>

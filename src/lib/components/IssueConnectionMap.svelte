@@ -1,8 +1,18 @@
 <!-- src/lib/components/IssueConnectionMap.svelte -->
 <script lang="ts">
   import { _ } from 'svelte-i18n';
+  import { getTranslationObject } from '$lib/i18n/config';
 
   export let currentIssue: string;
+
+  // Get translations reactively
+  $: translations = $_; // Base translations store
+
+  // Get JSON objects using the proper method
+  $: tooltips = getTranslationObject('issues.map.tooltips');
+  $: connections = getTranslationObject('issues.connections');
+  $: connectionSummaries = getTranslationObject('issues.connection_summaries');
+  $: shortTitles = getTranslationObject('issues');
 
   // Define all issues and their connections
   const issues = {
@@ -68,10 +78,7 @@
   }
 
   function hasTooltip(issue1: string, issue2: string): boolean {
-    const key = `issues.map.tooltips.${issue1}.${issue2}`;
-    // Check if the translation key exists and isn't just returning the key itself
-    const translation = $_(`issues.map.tooltips.${issue1}.${issue2}`);
-    return translation !== key && translation !== '';
+    return tooltips?.[issue1]?.[issue2] !== undefined;
   }
 
   function isConnectionActive(issue1: string, issue2: string): boolean {
@@ -83,13 +90,18 @@
     
     // If there's a selected issue, highlight all its connections
     if (selectedIssue) {
-      return (selectedIssue === issue1 && issues[issue1].connections.includes(issue2)) ||
-             (selectedIssue === issue2 && issues[issue2].connections.includes(issue1));
+      return (selectedIssue === issue1 && getIssueConnections(issue1).includes(issue2)) ||
+             (selectedIssue === issue2 && getIssueConnections(issue2).includes(issue1));
     }
     
     // If no selection, highlight connections to the current page's issue
-    return (currentIssue === issue1 && issues[issue1].connections.includes(issue2)) ||
-           (currentIssue === issue2 && issues[issue2].connections.includes(issue1));
+    return (currentIssue === issue1 && getIssueConnections(issue1).includes(issue2)) ||
+           (currentIssue === issue2 && getIssueConnections(issue2).includes(issue1));
+  }
+
+  // Add type safety and null checks
+  function getIssueConnections(issueId: string): string[] {
+    return issues[issueId as keyof typeof issues]?.connections || [];
   }
 
   function getNodeClass(issue: string): string {
@@ -102,12 +114,12 @@
     // Highlight node if it's the selected issue or connected to the selected issue
     if (selectedIssue) {
       if (issue === selectedIssue || 
-          (issues[selectedIssue].connections.includes(issue))) {
+          getIssueConnections(selectedIssue).includes(issue)) {
         classes += " connected";
       }
     } else if (!selectedConnection) {
       // If no selection, highlight nodes connected to current page's issue
-      if (issues[currentIssue].connections.includes(issue)) {
+      if (getIssueConnections(currentIssue).includes(issue)) {
         classes += " connected";
       }
     }
@@ -144,11 +156,9 @@
     };
   }
 
+
   function getTooltipText(issue1: string, issue2: string): string {
-    if (hasTooltip(issue1, issue2)) {
-      return $_(`issues.map.tooltips.${issue1}.${issue2}`);
-    }
-    return '';
+    return tooltips?.[issue1]?.[issue2] || '';
   }
 </script>
 
@@ -158,7 +168,11 @@
     {#each Object.entries(issues) as [issue1, data1]}
       {#each data1.connections as issue2}
         {@const data2 = issues[issue2]}
-        <g class="connection-group">
+        <g 
+          class="connection-group" 
+          role="group" 
+          aria-label={`Connection between ${issue1} and ${issue2}`}
+        >
           <line
             x1={data1.position.x}
             y1={data1.position.y}
@@ -166,8 +180,16 @@
             y2={data2.position.y}
             class={getConnectionClass(issue1, issue2)}
             on:click={(e) => handleConnectionClick(issue1, issue2, e)}
+            on:keydown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                handleConnectionClick(issue1, issue2, e);
+              }
+            }}
             on:mousemove={(e) => handleConnectionHover(issue1, issue2, e)}
             on:mouseleave={handleConnectionLeave}
+            role="button"
+            tabindex="0"
+            aria-label={`Connection between ${issue1} and ${issue2}`}
           />
           <!-- Invisible wider line for easier hovering -->
           <line
@@ -178,6 +200,7 @@
             class="connection-hover-area"
             on:mousemove={(e) => handleConnectionHover(issue1, issue2, e)}
             on:mouseleave={handleConnectionLeave}
+            role="presentation"
           />
         </g>
       {/each}
@@ -188,9 +211,17 @@
       <g
         transform="translate({data.position.x}, {data.position.y})"
         class={getNodeClass(issue)}
+        role="button"
+        tabindex="0"
+        aria-label={`Issue: ${issue}`}
         on:mouseenter={() => hoveredIssue = issue}
         on:mouseleave={() => hoveredIssue = null}
         on:click={() => handleIssueClick(issue)}
+        on:keydown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            handleIssueClick(issue);
+          }
+        }}
       >
         <circle
           r="20"
@@ -216,7 +247,7 @@
         style="left: {tooltipPosition.x}px; top: {tooltipPosition.y}px; transform: translate(-50%, -100%);"
       >
         <p class="font-medium mb-1">
-          {$_(`issues.${issue1}.short_title`)} ↔ {$_(`issues.${issue2}.short_title`)}
+          {shortTitles[issue1]?.short_title || ''} ↔ {shortTitles[issue2]?.short_title || ''}
         </p>
         <p class="text-gray-200 text-xs">
           {getTooltipText(issue1, issue2)}
@@ -231,17 +262,17 @@
       {#if selectedConnection}
         {@const [issue1, issue2] = selectedConnection.split('-')}
         <h4 class="font-semibold text-gray-900 dark:text-white mb-2">
-          {$_(`issues.${issue1}.short_title`)} ↔ {$_(`issues.${issue2}.short_title`)}
+          {shortTitles[issue1]?.short_title || ''} ↔ {shortTitles[issue2]?.short_title || ''}
         </h4>
         <p class="text-gray-600 dark:text-gray-300">
-          {$_(`issues.connections.${issue1}.${issue2}`)}
+          {connections[issue1]?.[issue2] || ''}
         </p>
       {:else if selectedIssue}
         <h4 class="font-semibold text-gray-900 dark:text-white mb-2">
-          {$_(`issues.${selectedIssue}.short_title`)}
+          {shortTitles[selectedIssue]?.short_title || ''}
         </h4>
         <p class="text-gray-600 dark:text-gray-300">
-          {$_(`issues.connection_summaries.${selectedIssue}`)}
+          {connectionSummaries[selectedIssue] || ''}
         </p>
         <h5 class="text-sm font-medium text-gray-700 dark:text-gray-300 mt-3 mb-1">
           {$_('issues.map.connected_issues')}:
@@ -249,7 +280,7 @@
         <ul class="mt-2 space-y-1">
           {#each issues[selectedIssue].connections as connectedIssue}
             <li class="text-sm text-gray-500 dark:text-gray-400">
-              • {$_(`issues.${connectedIssue}.short_title`)}
+              • {shortTitles[connectedIssue]?.short_title || ''}
             </li>
           {/each}
         </ul>
@@ -265,7 +296,7 @@
                'text-gray-600 dark:text-gray-400'}"
       >
         <span class="w-2 h-2 rounded-full bg-current"></span>
-        {$_(`issues.${issue}.short_title`)}
+        {shortTitles[issue]?.short_title || ''}
       </div>
     {/each}
   </div>
