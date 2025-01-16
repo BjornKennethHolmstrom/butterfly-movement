@@ -12,9 +12,14 @@ const issuePaths = issueOrder.flatMap(issue => [
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
+    // Use base path for GitHub Pages
+    paths: {
+      base: process.env.NODE_ENV === 'production' ? '/butterfly-movement' : ''
+    },
     adapter: adapter({
       pages: 'build',
       assets: 'build',
+      fallback: '404.html',
       precompress: false,
       strict: false
     }),
@@ -44,9 +49,6 @@ const config = {
         '/sv/contact',
         ...issuePaths
       ]
-    },
-    paths: {
-      base: ''
     }
   },
   preprocess: vitePreprocess()
