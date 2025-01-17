@@ -1,6 +1,7 @@
 <!-- src/routes/[lang]/issues/+page.svelte -->
 <script lang="ts">
   import { page } from '$app/stores';
+  import { language } from '$lib/stores/settings';
   import { base } from '$app/paths';
   import { _ } from 'svelte-i18n';
   import { getTranslationObject } from '$lib/i18n/config';
@@ -8,6 +9,9 @@
   import Mermaid from '$lib/components/Mermaid.svelte';
   import { ChevronDown, ChevronRight } from 'lucide-svelte';
   import { issueOrder } from '$lib/data/issues';
+
+  // Get current language for navigation
+  $: currentLang = $language || 'en';
 
   // State for expandable sections
   let showExtendedList = false;
@@ -151,7 +155,7 @@ $: extendedIssues = issueOrder.slice(10); // Remaining issues
       <div class="grid md:grid-cols-2 gap-8">
         {#each topIssues as issue, index}
           <a 
-            href={"{base}/{$page.params.lang}/issues/{issue.id}"}
+            href="{base}/{currentLang}/issues/{issue.id}"
             class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
           >
             <div class="flex items-start gap-4">
@@ -185,7 +189,7 @@ $: extendedIssues = issueOrder.slice(10); // Remaining issues
         </p>
       </div>
       
-      <!-- Placeholder for System Connections Diagram -->
+      <!-- System Connections Diagram -->
       <div class="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-sm">
         <div class="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-sm">
           <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">
