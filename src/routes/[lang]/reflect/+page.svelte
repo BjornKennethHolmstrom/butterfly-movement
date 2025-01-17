@@ -156,7 +156,7 @@
         {$_('reflect.cta.description')}
       </p>
       <a
-        href="https://discord.gg/your-invite-link"
+        href="https://discord.gg/t8q5RYyEMe"
         class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 dark:hover:bg-gray-100"
         target="_blank"
         rel="noopener noreferrer"

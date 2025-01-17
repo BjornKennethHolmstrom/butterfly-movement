@@ -50,7 +50,7 @@
         
         <div class="flex items-center ml-4 space-x-4">
           <a
-            href="https://discord.gg/your-invite-link"
+            href="https://discord.gg/t8q5RYyEMe"
             class="inline-flex items-center justify-center px-3 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 whitespace-nowrap"
             target="_blank"
             rel="noopener noreferrer"
@@ -108,7 +108,7 @@
         {/each}
         
         <a
-          href="https://discord.gg/your-invite-link"
+          href="https://discord.gg/t8q5RYyEMe"
           class="block px-3 py-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600"
           target="_blank"
           rel="noopener noreferrer"

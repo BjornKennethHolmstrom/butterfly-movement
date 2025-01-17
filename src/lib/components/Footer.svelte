@@ -45,7 +45,7 @@
         <ul class="space-y-4">
           <li>
             <a
-              href="https://discord.gg/your-invite-link"
+              href="https://discord.gg/t8q5RYyEMe"
               class="text-gray-600 hover:text-blue-600"
               target="_blank"
               rel="noopener noreferrer"

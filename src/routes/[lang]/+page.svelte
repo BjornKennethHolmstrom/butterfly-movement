@@ -46,7 +46,7 @@
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://discord.gg/your-invite-link"
+            href="https://discord.gg/t8q5RYyEMe"
             class="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
             target="_blank"
             rel="noopener noreferrer"
@@ -122,7 +122,7 @@
           {$_('home.community.description')}
         </p>
         <a
-          href="https://discord.gg/your-invite-link"
+          href="https://discord.gg/t8q5RYyEMe"
           class="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-lg flex items-center gap-2 mx-auto hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors inline-flex"
           target="_blank"
           rel="noopener noreferrer"
