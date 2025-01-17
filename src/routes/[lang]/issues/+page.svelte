@@ -1,6 +1,7 @@
 <!-- src/routes/[lang]/issues/+page.svelte -->
 <script lang="ts">
   import { page } from '$app/stores';
+  import { base } from '$app/paths';
   import { _ } from 'svelte-i18n';
   import { getTranslationObject } from '$lib/i18n/config';
   import Head from '$lib/components/Head.svelte';
@@ -150,7 +151,7 @@ $: extendedIssues = issueOrder.slice(10); // Remaining issues
       <div class="grid md:grid-cols-2 gap-8">
         {#each topIssues as issue, index}
           <a 
-            href={`/${$page.params.lang}/issues/${issue.id}`}
+            href={"{base}/{$page.params.lang}/issues/{issue.id}"}
             class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
           >
             <div class="flex items-start gap-4">
