@@ -1,11 +1,15 @@
 <!-- src/routes/[lang]/issues/IssueLayout.svelte -->
 <script lang="ts">
   import { page } from '$app/stores';
+  import { language } from '$lib/stores/settings';
   import { _ } from 'svelte-i18n';
   import { base } from '$app/paths';
   import { ChevronLeft } from 'lucide-svelte';
   import { getPreviousIssue, getNextIssue } from '$lib/data/issues';
  
+  // Get current language for navigation
+  $: currentLang = $language || 'en';
+
   export let issueNumber: number;
   export let issueId: string;
   
@@ -53,7 +57,7 @@
         <div class="flex items-center gap-4">
           {#if previousIssue}
             <a 
-              href="{base}/{$page.params.lang}/issues/{previousIssue.id}"
+              href="{base}/{currentLang}/issues/{previousIssue.id}"
               class="text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               ← {$_('issues.common.previous_issue')}
@@ -66,7 +70,7 @@
 
           {#if nextIssue}
             <a 
-              href={"{base}/{$page.params.lang}/issues/{nextIssue.id}"}
+              href="{base}/{currentLang}/issues/{nextIssue.id}"
               class="text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               {$_('issues.common.next_issue')} →
