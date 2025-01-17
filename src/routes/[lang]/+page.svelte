@@ -2,6 +2,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n';
   import { language } from '$lib/stores/settings';
+  import { base } from '$app/paths';
   import { ArrowRight, Globe2, Users, Heart } from 'lucide-svelte';
   import Head from '$lib/components/Head.svelte';
 
@@ -54,7 +55,7 @@
             <ArrowRight size={20} />
           </a>
           <a
-            href="{currentLang}/issues"
+            href="${base}/{currentLang}/issues"
             class="bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 px-8 py-3 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
           >
             {$_('home.hero.explore')}
@@ -96,7 +97,7 @@
             {$_('home.cta.description')}
           </p>
           <a
-            href="{currentLang}/reflect"
+            href="{base}/{currentLang}/reflect"
             class="bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors inline-block"
           >
             {$_('home.cta.button')}

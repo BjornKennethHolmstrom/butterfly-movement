@@ -57,9 +57,6 @@ flowchart TD
     class Tech,Population,Health,Education,Conflict,Water,Culture secondary
 `;
 
-  $: topIssues = issueOrder.slice(0, 10); // First 10 issues
-  $: extendedIssues = issueOrder.slice(10); // Remaining issues
-
   const categories = [
     {
       title: 'issues.extended.environmental.title',
@@ -78,6 +75,24 @@ flowchart TD
       challenges: governanceChallenges
     }
   ];
+
+// Helper function to get challenges for a category
+function getChallenges(category) {
+  const prefix = `issues.extended.${category}.challenges`;
+  const result = {};
+  for (let i = 1; i <= 10; i++) {
+    const key = `${prefix}.${i}`;
+    const title = $_(`${key}.title`);
+    const description = $_(`${key}.description`);
+    if (title !== key) { // Check if translation exists
+      result[i] = { title, description };
+    }
+  }
+  return result;
+}
+
+$: topIssues = issueOrder.slice(0, 10); // First 10 issues
+$: extendedIssues = issueOrder.slice(10); // Remaining issues
 </script>
 
 <Head

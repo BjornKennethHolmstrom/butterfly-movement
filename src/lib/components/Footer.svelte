@@ -1,6 +1,11 @@
 <!-- src/lib/components/Footer.svelte -->
 <script lang="ts">
   import { _ } from 'svelte-i18n';
+  import { base } from '$app/paths';
+  import { page } from '$app/stores';
+
+  // Get language from URL params instead of store
+  $: lang = $page.params.lang || 'en';
 </script>
 
 <footer class="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
@@ -21,12 +26,12 @@
         </h3>
         <ul class="space-y-4">
           <li>
-            <a href="/privacy" class="text-gray-600 hover:text-blue-600">
+            <a href={`${base}/${lang}/privacy`} class="text-gray-600 hover:text-blue-600">
               {$_('footer.privacy')}
             </a>
           </li>
           <li>
-            <a href="/contact" class="text-gray-600 hover:text-blue-600">
+            <a href={`${base}/${lang}/contact`} class="text-gray-600 hover:text-blue-600">
               {$_('footer.contact')}
             </a>
           </li>

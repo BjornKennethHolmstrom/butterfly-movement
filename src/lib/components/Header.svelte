@@ -3,6 +3,7 @@
   import { page } from '$app/stores';
   import { _ } from 'svelte-i18n';
   import { language } from '$lib/stores/settings';
+  import { base } from '$app/paths';
   import Logo from './Logo.svelte';
   import LanguageSelector from './LanguageSelector.svelte';
   import ThemeToggle from './ThemeToggle.svelte';
@@ -13,11 +14,11 @@
   $: currentLang = $language || 'en';
 
   $: navItems = [
-    { href: `/${currentLang}`, label: 'nav.home' },
-    { href: `/${currentLang}/about`, label: 'nav.about' },
-    { href: `/${currentLang}/issues`, label: 'nav.issues' },
-    { href: `/${currentLang}/reflect`, label: 'nav.reflect' },
-    { href: `/${currentLang}/children`, label: 'nav.children' }
+    { href: `${base}/${currentLang}`, label: 'nav.home' },
+    { href: `${base}/${currentLang}/about`, label: 'nav.about' },
+    { href: `${base}/${currentLang}/issues`, label: 'nav.issues' },
+    { href: `${base}/${currentLang}/reflect`, label: 'nav.reflect' },
+    { href: `${base}/${currentLang}/children`, label: 'nav.children' }
   ];
 </script>
 
@@ -25,7 +26,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-16">
       <div class="flex items-center">
-        <a href={`/${currentLang}`} class="flex items-center" aria-label={$_('nav.home')}>
+        <a href={`${base}/${currentLang}`} class="flex items-center" aria-label={$_('nav.home')}>
           <Logo width={40} height={40} />
           <span class="ml-2 text-xl font-semibold text-gray-900 dark:text-white">
             {$_('common.movement-name')}

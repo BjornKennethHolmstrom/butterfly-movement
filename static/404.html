@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Page Not Found - The Butterfly Movement</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>
+    // Handle base path for GitHub Pages
+    const base = location.hostname === 'localhost' ? '' : '/butterfly-movement';
+    
+    // Redirect to language-specific home page
+    const preferredLang = (navigator.language || navigator.userLanguage).substring(0, 2);
+    const lang = ['en', 'sv'].includes(preferredLang) ? preferredLang : 'en';
+    window.location.href = base + '/' + lang;
+  </script>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #f8fafc;
+      color: #1e293b;
+    }
+    .container {
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 { font-size: 2rem; margin-bottom: 1rem; }
+    p { font-size: 1.1rem; color: #64748b; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0f172a; color: #f1f5f9; }
+      p { color: #94a3b8; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Page Not Found</h1>
+    <p>Redirecting to homepage...</p>
+  </div>
+</body>
+</html>

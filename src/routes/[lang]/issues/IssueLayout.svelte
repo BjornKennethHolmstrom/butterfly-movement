@@ -2,6 +2,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import { _ } from 'svelte-i18n';
+  import { base } from '$app/paths';
   import { ChevronLeft } from 'lucide-svelte';
   import { getPreviousIssue, getNextIssue } from '$lib/data/issues';
  
@@ -41,7 +42,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <a 
-          href={`/${$page.params.lang}/issues`}
+          href="{base}/{$page.params.lang}/issues"
           class="flex items-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
         >
           <ChevronLeft class="w-5 h-5" />
@@ -52,7 +53,7 @@
         <div class="flex items-center gap-4">
           {#if previousIssue}
             <a 
-              href={`/${$page.params.lang}/issues/${previousIssue.id}`}
+              href="{base}/{$page.params.lang}/issues/{previousIssue.id}"
               class="text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               ← {$_('issues.common.previous_issue')}
@@ -65,7 +66,7 @@
 
           {#if nextIssue}
             <a 
-              href={`/${$page.params.lang}/issues/${nextIssue.id}`}
+              href={"{base}/{$page.params.lang}/issues/{nextIssue.id}"}
               class="text-sm text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               {$_('issues.common.next_issue')} →
