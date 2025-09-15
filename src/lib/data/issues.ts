@@ -42,10 +42,6 @@ export const issueOrder: Issue[] = [
   {
     id: 'cultural-diversity',
     translationKey: 'issues.cultural-diversity'
-  },
-  {
-    id: 'energy-transition',
-    translationKey: 'issues.energy-transition'
   }
 ];
 
