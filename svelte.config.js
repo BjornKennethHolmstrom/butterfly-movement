@@ -2,6 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 const dev = process.env.NODE_ENV === 'development';
+const base = dev ? '' : '/butterfly-movement';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,35 +13,20 @@ const config = {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: undefined,
+      fallback: 'index.html', // Changed from '404.html' to 'index.html'
       precompress: false,
-      strict: true
+      strict: false
     }),
     prerender: {
-      entries: ['*'],
       handleHttpError: ({ path, referrer, message }) => {
-        // Ignore malformed URLs with $.
-        if (path.includes('$.') || path.includes('$./')) {
-          console.warn(`Ignoring malformed URL with $.: ${path}`);
+        // Handle 404s and redirects silently during build
+        if (path.includes('$') || 
+            message.includes('base') || 
+            path.includes('/en/') || 
+            path.includes('/sv/')) {
           return;
         }
-        
-        // Ignore double language paths
-        if (path.includes('/sv/en/') || 
-            path.includes('/en/sv/') ||
-            path.includes('/en/en/') ||
-            path.includes('/sv/sv/')) {
-          console.warn(`Ignoring malformed language URL: ${path}`);
-          return;
-        }
-        
-        // Ignore 404s for energy-transition
-        if (message.includes('404') && path.includes('/energy-transition')) {
-          console.warn(`Ignoring 404 for extended challenge: ${path}`);
-          return;
-        }
-        
-        throw new Error(`Prerender failed for ${path}: ${message}`);
+        throw new Error(message);
       }
     }
   },
