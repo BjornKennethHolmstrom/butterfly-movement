@@ -3,6 +3,7 @@
   import { _ } from 'svelte-i18n';
   import { base } from '$app/paths';
   import { page } from '$app/stores';
+  import DiscordNotification from './DiscordNotification.svelte';
 
   // Get language from URL params instead of store
   $: lang = $page.params.lang || 'en';
@@ -43,16 +44,7 @@
           {$_('footer.social')}
         </h3>
         <ul class="space-y-4">
-          <li>
-            <a
-              href="https://discord.gg/t8q5RYyEMe"
-              class="text-gray-600 hover:text-blue-600"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Discord
-            </a>
-          </li>
+          <DiscordNotification variant="link" />
         </ul>
       </div>
     </div>

@@ -45,7 +45,7 @@
           {$_('home.hero.description')}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
+          <!-- <a
             href="https://discord.gg/t8q5RYyEMe"
             class="bg-blue-600 dark:bg-blue-500 text-white px-8 py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-blue-700 dark:hover:bg-blue-600 transition-colors"
             target="_blank"
@@ -53,7 +53,7 @@
           >
             {$_('home.hero.join')}
             <ArrowRight size={20} />
-          </a>
+          </a> -->
           <a
             href="${base}/{currentLang}/issues"
             class="bg-white dark:bg-gray-800 text-blue-600 dark:text-blue-400 border-2 border-blue-600 dark:border-blue-400 px-8 py-3 rounded-lg hover:bg-blue-50 dark:hover:bg-gray-700 transition-colors"
@@ -111,7 +111,7 @@
     </div>
   </section>
 
-  <!-- Community Section -->
+  <!-- Community Section 
   <section class="py-16 bg-white dark:bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto">
@@ -132,5 +132,5 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 </div>

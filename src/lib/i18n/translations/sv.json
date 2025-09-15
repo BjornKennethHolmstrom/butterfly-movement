@@ -22,7 +22,7 @@
   "contact": {
     "meta": {
       "title": "Kontakt - Fjärilsrörelsen",
-      "description": "Kom i kontakt med Fjärilsrörelsen. Vi är här för att lyssna, samarbeta och ta steg framåt tillsammans."
+      "description": "Kom i kontakt med fjärilsrörelsen. Vi är här för att lyssna, samarbeta och ta steg framåt tillsammans."
     },
     "title": "Kontakta oss",
     "form": {
@@ -46,74 +46,74 @@
   },
   "home": {
     "meta": {
-      "title": "Fjärilsrörelsen - Förändras Tillsammans",
+      "title": "Fjärilsrörelsen - Förändras tillsammans",
       "description": "Anslut dig till en global rörelse dedikerad till att hantera planetens mest brådskande utmaningar genom reflektion, samarbete och handling."
     },
     "hero": {
-      "title": "Förändras Tillsammans",
+      "title": "Förändras tillsammans",
       "description": "En global rörelse dedikerad till att hantera planetens mest brådskande utmaningar genom reflektion, samarbete och handling.",
       "join": "Gå med i Discord",
-      "explore": "Utforska Globala Utmaningar"
+      "explore": "Utforska globala utmaningar"
     },
     "issues": {
-      "title": "Viktiga Globala Utmaningar",
+      "title": "Viktiga globala utmaningar",
       "climate": {
         "title": "Klimatförändringar",
         "description": "Hantera den brådskande krisen med globala klimatförändringar och miljöförstöring."
       },
       "inequality": {
-        "title": "Social Ojämlikhet",
+        "title": "Social ojämlikhet",
         "description": "Arbeta för en mer rättvis värld med rättvisa möjligheter för alla."
       },
       "future": {
-        "title": "Framtida Generationer",
+        "title": "Framtida generationer",
         "description": "Säkerställa en blomstrande planet för barn och framtida generationer."
       }
     },
     "cta": {
-      "title": "Påbörja Din Resa",
+      "title": "Påbörja din resa",
       "description": "Börja med självreflektion och upptäck hur du kan bidra till positiv förändring på ditt eget unika sätt.",
-      "button": "Prova Självreflektionsverktyget"
+      "button": "Prova självreflektionsverktyget"
     },
     "community": {
-      "title": "Gå Med i Vår Gemenskap",
+      "title": "Gå med i vår gemenskap",
       "description": "Anslut med likasinnade människor världen över, dela idéer och samordna meningsfulla handlingar genom vår Discord-gemenskap.",
       "join": "Gå med i Discord"
     }
   },
   "about": {
     "meta": {
-      "title": "Om Fjärilsrörelsen",
+      "title": "Om fjärilsrörelsen",
       "description": "Lär dig om vårt uppdrag att skapa positiv global förändring genom reflektion, samarbete och handling."
     },
     "hero": {
-      "title": "Om Fjärilsrörelsen",
+      "title": "Om fjärilsrörelsen",
       "description": "En global gemenskap som arbetar tillsammans för att hantera världens mest brådskande utmaningar genom meningsfull handling och transformation."
     },
     "origin": {
-      "title": "Vår Historia",
-      "paragraph1": "Fjärilsrörelsen uppstod ur en enkel men kraftfull idé: att meningsfull förändring börjar med individuell reflektion men växer genom kollektiv handling. Grundad 2024 av Björn Kenneth Holmström i samband med etableringen av Fjärilspartiet i Sverige, representerar rörelsen en global förlängning av dessa transformativa ideal.",
-      "paragraph2": "Idag bygger vi en världsomspännande gemenskap av individer som är engagerade i att hantera globala utmaningar genom eftertänksam reflektion, meningsfull dialog och samordnad handling. Vårt tillvägagångssätt betonar de globala utmaningarnas sammankopplade natur och vikten av inkluderande, samarbetsbaserade lösningar."
+      "title": "Vår berättelse",
+      "paragraph1": "Fjärilsrörelsen började som ett utforskande av hur individuell reflektion kunde kopplas till kollektiv handling för att möta globala utmaningar. Projektet skapades 2024, parallellt med utvecklingen av idéer för transformativ politik, och representerar ett försök att överbrygga personlig utveckling med systemtänkande.",
+      "paragraph2": "Detta är för närvarande en experimentell plattform – en plats för att utforska idéer, verktyg och tillvägagångssätt för att hantera sammanlänkade globala utmaningar genom ett integrerande tänkande. Snarare än en etablerad rörelse är det en inbjudan att fundera över hur en sådan rörelse skulle kunna se ut."
     },
     "principles": {
-      "title": "Våra Grundprinciper",
+      "title": "Våra grundprinciper",
       "global": {
-        "title": "Globalt Perspektiv",
+        "title": "Globalt perspektiv",
         "description": "Förstå den sammankopplade naturen av globala utmaningar och främja lösningar som överskrider gränser."
       },
       "collective": {
-        "title": "Kollektiv Handling",
+        "title": "Kollektiv handling",
         "description": "Sammanföra människor för att skapa meningsfull förändring genom samarbete och delat syfte."
       },
       "transformation": {
-        "title": "Personlig Utveckling",
+        "title": "Personlig utveckling",
         "description": "Uppmuntra individuell reflektion och utveckling som katalysatorer för bredare samhällsförändring."
       }
     },
     "vision": {
-      "title": "Vår Vision för Framtiden",
-      "paragraph1": "Vi föreställer oss en värld där globala utmaningar hanteras genom eftertänksamt samarbete, där varje individ har möjlighet att meningsfullt bidra till positiv förändring, och där våra utmaningars sammankopplade natur möts med lika sammankopplade lösningar.",
-      "paragraph2": "Genom vår gemenskap, våra verktyg och resurser arbetar vi för att göra denna vision till verklighet, ett steg i taget. Vi tror att genom att kombinera personlig reflektion med kollektiv handling kan vi skapa bestående positiv förändring för nuvarande och framtida generationer."
+      "title": "Vår vision för framtiden",
+      "paragraph1": "Vi föreställer oss samhällen som kan hantera globala utmaningar genom genomtänkt samarbete, där individer kan bidra meningsfullt till positiv förändring, och där våra utmaningars sammanlänkade natur möts med lika sammanlänkade svar.",
+      "paragraph2": "Genom dessa verktyg och idéer utforskar vi om denna vision kan bli verklighet. Vi tror att en kombination av personlig reflektion och systemtänkande kan bidra till att skapa den typ av medvetande som det här planetära ögonblicket kräver."
     }
   },
   "reflect": {
@@ -130,14 +130,14 @@
       "paragraph2": "Ta dig tid med varje steg och var ärlig och eftertänksam i dina svar. Kom ihåg att det inte finns några rätta eller fel svar – detta handlar om att upptäcka ditt personliga sätt att bidra."
     },
     "exercise": {
-      "title": "Din Självreflektionsresa",
+      "title": "Din självreflektionsresa",
       "step1": {
-        "title": "Dokumentera Dina Nuvarande Aktiviteter",
+        "title": "Dokumentera dina nuvarande aktiviteter",
         "description": "Lista dina regelbundna aktiviteter och sortera dem i följande kategorier:",
         "categories": {
-          "essential": "Nödvändiga Aktiviteter",
-          "optional": "Valfria Aktiviteter",
-          "timeConsuming": "Tidskrävande men Mindre Givande"
+          "essential": "Nödvändiga aktiviteter",
+          "optional": "Valfria aktiviteter",
+          "timeConsuming": "Tidskrävande men mindre givande"
         },
         "placeholders": {
           "essential": "T.ex. arbetsuppgifter, familjevård, hälsounderhåll...",
@@ -146,10 +146,10 @@
         }
       },
       "step2": {
-        "title": "Reflektera över Ditt Varför",
+        "title": "Reflektera över ditt varför",
         "questions": {
           "purpose": {
-            "title": "Syfte och Mening",
+            "title": "Syfte och mening",
             "description": "Vilka aktiviteter ger dig störst känsla av syfte och varför?"
           },
           "values": {
@@ -157,7 +157,7 @@
             "description": "Vilka av dina nuvarande aktiviteter stämmer bäst överens med dina grundvärderingar?"
           },
           "fulfillment": {
-            "title": "Personlig Tillfredsställelse",
+            "title": "Personlig tillfredsställelse",
             "description": "Vilka aktiviteter får dig att känna dig mest energisk och uppfylld?"
           }
         },
@@ -168,13 +168,13 @@
         }
       },
       "step3": {
-        "title": "Föreställ Dig Nya Möjligheter",
+        "title": "Föreställ dig nya möjligheter",
         "description": "Baserat på dina reflektioner, vilka nya aktiviteter eller förändringar skulle kunna hjälpa dig att bidra mer meningsfullt till positiv förändring?",
         "placeholder": "Beskriv de möjligheter du ser för meningsfullt bidragande..."
       }
     },
     "cta": {
-      "title": "Dela Din Resa",
+      "title": "Dela din resa",
       "description": "Anslut dig till andra som är på liknande resor av reflektion och handling.",
       "button": "Gå med i vår gemenskap"
     }
@@ -258,18 +258,18 @@
       "short_title": "Klimatförändring",
       "summary": "De sammanlänkade kriserna av global uppvärmning, förlust av biologisk mångfald och miljöförstörelse som hotar jordens livsuppehållande system.",
       "meta": {
-        "title": "Klimatförändringar och Miljöförstöring",
+        "title": "Klimatförändringar och miljöförstöring",
         "description": "Förstå de sammankopplade kriserna kring klimatförändringar och miljöförstöring, deras påverkan och lösningar."
       },
-      "title": "Klimatförändringar och Miljöförstöring",
+      "title": "Klimatförändringar och miljöförstöring",
       "introduction": "Den viktigaste utmaningen som vår planet står inför idag är de sammankopplade kriserna kring klimatförändringar och miljöförstöring. Denna utmaning omfattar flera brådskande problem som hotar jordens livsuppehållande system och kräver omedelbara, samordnade globala åtgärder.",
       "key_aspects": [
         {
-          "title": "Global Uppvärmning och Extremt Väder",
+          "title": "Global uppvärmning och extremt väder",
           "description": "Stigande temperaturer leder till smältande isar, höjda havsnivåer och allt allvarligare vädermönster, som orkaner, torka och översvämningar."
         },
         {
-          "title": "Förlust av Biologisk Mångfald",
+          "title": "Förlust av biologisk mångfald",
           "description": "Förstörelse av livsmiljöer, föroreningar och ohållbara metoder driver arter till utrotning i en alarmerande takt, vilket stör ekosystem och minskar jordens motståndskraft."
         }
       ],
@@ -280,11 +280,11 @@
       ],
       "solutions_list": [
         {
-          "title": "Övergång till Förnybar Energi",
+          "title": "Övergång till förnybar energi",
           "description": "Snabbt skifta från fossila bränslen till rena energikällor samtidigt som energieffektiviteten förbättras."
         },
         {
-          "title": "Skydda och Återställ Ekosystem",
+          "title": "Skydda och återställ ekosystem",
           "description": "Genomföra storskaliga bevarande- och återställningsprojekt för att bevara biologisk mångfald och förbättra kolsänkor."
         }
       ]
@@ -819,7 +819,7 @@
       }
     },
     "diagram": {
-      "title": "Den Sammankopplade Naturen hos Globala Utmaningar",
+      "title": "Den sammankopplade naturen hos globala utmaningar",
       "description": "Detta diagram illustrerar hur våra stora globala utmaningar påverkar och förstärker varandra, vilket understryker behovet av systemiska lösningar.",
       "legend": {
         "title": "Diagramförklaring",
@@ -829,23 +829,23 @@
       }
     },
     "extended": {
-      "title": "Ytterligare Globala Utmaningar",
+      "title": "Ytterligare globala utmaningar",
       "environmental": {
         "title": "Miljöutmaningar",
         "challenges": {
           "energy": {
             "number": 11,
-            "title": "Energiomställning och Hållbarhet",
+            "title": "Energiomställning och hållbarhet",
             "description": "Minska det globala beroendet av fossila bränslen för att säkerställa en övergång till förnybara energikällor."
           },
           "oceans": {
             "number": 12,
-            "title": "Hälsa för Haven",
+            "title": "Hälsa för haven",
             "description": "Bekämpa överfiske, plastföroreningar och försurning av haven för att skydda marina ekosystem."
           },
           "deforestation": {
             "number": 13,
-            "title": "Avskogning och Markförstöring",
+            "title": "Avskogning och markförstöring",
             "description": "Förhindra habitatförstörelse och jorderosion för att bevara biologisk mångfald och stödja jordbruket."
           },
           "air": {
@@ -860,12 +860,12 @@
           },
           "soil": {
             "number": 16,
-            "title": "Jordens Bördighet och Hållbart Jordbruk",
+            "title": "Jordens bördighet och hållbart jordbruk",
             "description": "Åtgärda jordförstöring och främja regenerativa jordbruksmetoder."
           },
           "freshwater": {
             "number": 17,
-            "title": "Skydd av Sötvattenekosystem",
+            "title": "Skydd av sötvattenekosystem",
             "description": "Skydda floder, sjöar och våtmarker från föroreningar och överanvändning."
           },
           "desertification": {
@@ -875,18 +875,18 @@
           },
           "chemicals": {
             "number": 19,
-            "title": "Kemiska Föroreningar",
+            "title": "Kemiska föroreningar",
             "description": "Åtgärda effekterna av industriella kemikalier och bekämpningsmedel på ekosystem och människors hälsa."
           },
           "polar": {
             "number": 20,
-            "title": "Skydd av Polarområden",
+            "title": "Skydd av polarområden",
             "description": "Skydda Arktis och Antarktis från smältande isar, habitatförlust och exploatering av resurser."
           }
         }
       },
       "social": {
-        "title": "Sociala och Ekonomiska Utmaningar",
+        "title": "Sociala och ekonomiska utmaningar",
         "challenges": {
           "youth": {
             "number": 21,
@@ -900,27 +900,27 @@
           },
           "economic": {
             "number": 23,
-            "title": "Reform av Ekonomiska System",
+            "title": "Reform av ekonomiska system",
             "description": "Transformera ekonomiska modeller för att prioritera välbefinnande och hållbarhet framför ren tillväxt."
           },
           "migration": {
             "number": 24,
-            "title": "Migration och Stöd för Flyktingar",
+            "title": "Migration och stöd för flyktingar",
             "description": "Stödja fördrivna populationer och skapa hållbara migrationspolicys."
           },
           "aging": {
             "number": 25,
-            "title": "Åldrande Befolkningar",
+            "title": "Åldrande befolkningar",
             "description": "Hantera de ekonomiska och sociala konsekvenserna av åldrande demografier."
           },
           "basic_income": {
             "number": 26,
-            "title": "Ekonomisk Trygghet",
+            "title": "Ekonomisk trygghet",
             "description": "Utforska lösningar som medborgarlön för att hantera fattigdom och ekonomisk instabilitet."
           },
           "urban": {
             "number": 27,
-            "title": "Urban Utveckling",
+            "title": "Urban utveckling",
             "description": "Säkerställa att städer är motståndskraftiga, inkluderande och hållbara."
           },
           "gender": {
@@ -930,32 +930,32 @@
           },
           "healthcare": {
             "number": 29,
-            "title": "Tillgång till Vård",
+            "title": "Tillgång till vård",
             "description": "Utöka tillgången till kvalitativ vård för underbetjänade populationer."
           },
           "mental_health": {
             "number": 30,
-            "title": "Stöd för Psykisk Hälsa",
+            "title": "Stöd för psykisk hälsa",
             "description": "Hantera den globala ökningen av psykiska hälsoproblem och tillhandahålla adekvat stöd."
           }
         }
       },
       "technological": {
-        "title": "Teknologiska och Etiska Utmaningar",
+        "title": "Teknologiska och etiska utmaningar",
         "challenges": {
           "cybersecurity": {
             "number": 31,
-            "title": "Digital Säkerhet och Integritet",
+            "title": "Digital säkerhet och integritet",
             "description": "Skydda individer och samhällen från cyberhot och dataexploatering."
           },
           "ai_ethics": {
             "number": 32,
-            "title": "AI-etik och Styrning",
+            "title": "AI-etik och styrning",
             "description": "Säkerställa att AI-system är rättvisa, transparenta och i linje med mänskliga värderingar."
           },
           "biotech": {
             "number": 33,
-            "title": "Etik inom Bioteknik",
+            "title": "Etik inom bioteknik",
             "description": "Balansera innovation med etiska överväganden inom genteknik och syntetisk biologi."
           },
           "space": {
@@ -965,22 +965,22 @@
           },
           "automation": {
             "number": 35,
-            "title": "Framtiden för Arbete",
+            "title": "Framtiden för arbete",
             "description": "Förbereda för arbetskraftens omställningar på grund av automation och tekniska förändringar."
           },
           "digital_divide": {
             "number": 36,
-            "title": "Digital Inkludering",
+            "title": "Digital inkludering",
             "description": "Säkerställa rättvis tillgång till teknik och digitala möjligheter."
           },
           "consumption": {
             "number": 37,
-            "title": "Hållbar Konsumtion",
+            "title": "Hållbar konsumtion",
             "description": "Främja ansvarsfulla produktions- och konsumtionsmönster."
           },
           "fintech": {
             "number": 38,
-            "title": "Finansiell Teknik",
+            "title": "Finansiell teknik",
             "description": "Hantera utvecklingen av finansiella system och digitala valutor."
           },
           "innovation": {
@@ -990,13 +990,13 @@
           },
           "media": {
             "number": 40,
-            "title": "Medias Integritet",
+            "title": "Medias integritet",
             "description": "Bekämpa desinformation och säkerställa ansvarsfull journalistik."
           }
         }
       },
       "governance": {
-        "title": "Styrnings- och Politiska Utmaningar",
+        "title": "Styrnings- och politiska utmaningar",
         "challenges": {
           "corruption": {
             "number": 41,
@@ -1005,42 +1005,42 @@
           },
           "democracy": {
             "number": 42,
-            "title": "Demokratisk Motståndskraft",
+            "title": "Demokratisk motståndskraft",
             "description": "Stärka demokratiska institutioner och processer."
           },
           "cooperation": {
             "number": 43,
-            "title": "Globalt Samarbete",
+            "title": "Globalt samarbete",
             "description": "Stärka internationella institutioner och multilaterala partnerskap."
           },
           "human_rights": {
             "number": 44,
-            "title": "Skydd av Mänskliga Rättigheter",
+            "title": "Skydd av mänskliga rättigheter",
             "description": "Säkerställa universell respekt för mänskliga rättigheter och värdighet."
           },
           "disarmament": {
             "number": 45,
-            "title": "Fred och Avväpning",
+            "title": "Fred och avväpning",
             "description": "Minska militära spänningar och eliminera massförstörelsevapen."
           },
           "extremism": {
             "number": 46,
-            "title": "Social Sammanhållning",
+            "title": "Social sammanhållning",
             "description": "Hantera extremism och främja inkluderande dialog."
           },
           "indigenous": {
             "number": 47,
-            "title": "Ursprungsbefolkningars Rättigheter",
+            "title": "Ursprungsbefolkningars rättigheter",
             "description": "Skydda ursprungsfolkens rättigheter, marker och kulturella arv."
           },
           "digital_governance": {
             "number": 48,
-            "title": "Digital Styrning",
+            "title": "Digital styrning",
             "description": "Utveckla ramverk för etisk användning och reglering av teknik."
           },
           "citizenship": {
             "number": 49,
-            "title": "Globalt Medborgarskap",
+            "title": "Globalt medborgarskap",
             "description": "Främja medvetenhet och ansvar för globala utmaningar."
           },
           "resilience": {

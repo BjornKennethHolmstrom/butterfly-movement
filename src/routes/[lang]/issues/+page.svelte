@@ -4,7 +4,6 @@
   import { language } from '$lib/stores/settings';
   import { base } from '$app/paths';
   import { _ } from 'svelte-i18n';
-  import { getTranslationObject } from '$lib/i18n/config';
   import Head from '$lib/components/Head.svelte';
   import Mermaid from '$lib/components/Mermaid.svelte';
   import { ChevronDown, ChevronRight } from 'lucide-svelte';
@@ -16,12 +15,72 @@
   // State for expandable sections
   let showExtendedList = false;
 
-  // Get translations as objects/arrays using stores
-$: environmentalChallenges = getTranslationObject('issues.extended.environmental.challenges');
-$: socialChallenges = getTranslationObject('issues.extended.social.challenges');
-$: technologicalChallenges = getTranslationObject('issues.extended.technological.challenges');
-$: governanceChallenges = getTranslationObject('issues.extended.governance.challenges');
+  // Helper function to get challenges for a category
+  function getChallenges(categoryKey) {
+    const challenges = {};
+    
+    // Your JSON structure uses named keys like 'energy', 'oceans', etc.
+    const categoryPath = `issues.extended.${categoryKey}.challenges`;
+    
+    // Get all possible challenge keys from your JSON structure
+    const challengeKeys = {
+      environmental: ['energy', 'oceans', 'deforestation', 'air', 'waste', 'soil', 'freshwater', 'desertification', 'chemicals', 'polar'],
+      social: ['youth', 'food', 'economic', 'migration', 'aging', 'basic_income', 'urban', 'gender', 'healthcare', 'mental_health'],
+      technological: ['cybersecurity', 'ai_ethics', 'biotech', 'space', 'automation', 'digital_divide', 'consumption', 'fintech', 'innovation', 'media'],
+      governance: ['corruption', 'democracy', 'cooperation', 'human_rights', 'disarmament', 'extremism', 'indigenous', 'digital_governance', 'citizenship', 'resilience']
+    };
+    
+    const keys = challengeKeys[categoryKey] || [];
+    
+    keys.forEach(key => {
+      const titleKey = `${categoryPath}.${key}.title`;
+      const descKey = `${categoryPath}.${key}.description`;
+      const numberKey = `${categoryPath}.${key}.number`;
+      
+      const title = $_(titleKey);
+      const description = $_(descKey);
+      const number = $_(numberKey);
+      
+      // Only include if translation exists
+      if (title !== titleKey && description !== descKey) {
+        challenges[key] = { 
+          title, 
+          description,
+          number: number !== numberKey ? number : 0 // fallback if number not found
+        };
+      }
+    });
+    
+    return challenges;
+  }
 
+  // Make categories reactive so they update when language changes
+  $: categories = [
+    {
+      title: 'issues.extended.environmental.title',
+      key: 'environmental',
+      challenges: getChallenges('environmental')
+    },
+    {
+      title: 'issues.extended.social.title', 
+      key: 'social',
+      challenges: getChallenges('social')
+    },
+    {
+      title: 'issues.extended.technological.title',
+      key: 'technological', 
+      challenges: getChallenges('technological')
+    },
+    {
+      title: 'issues.extended.governance.title',
+      key: 'governance',
+      challenges: getChallenges('governance')
+    }
+  ];
+
+  $: topIssues = issueOrder.slice(0, 10);
+
+  // Your existing systemDiagram code...
   const systemDiagram = `
 flowchart TD
     classDef primary fill:#4A90E2,stroke:#2171C7,color:white
@@ -61,43 +120,6 @@ flowchart TD
     class Climate,Inequality,Governance primary
     class Tech,Population,Health,Education,Conflict,Water,Culture secondary
 `;
-
-  const categories = [
-    {
-      title: 'issues.extended.environmental.title',
-      challenges: environmentalChallenges
-    },
-    {
-      title: 'issues.extended.social.title',
-      challenges: socialChallenges
-    },
-    {
-      title: 'issues.extended.technological.title',
-      challenges: technologicalChallenges
-    },
-    {
-      title: 'issues.extended.governance.title',
-      challenges: governanceChallenges
-    }
-  ];
-
-// Helper function to get challenges for a category
-function getChallenges(category) {
-  const prefix = `issues.extended.${category}.challenges`;
-  const result = {};
-  for (let i = 1; i <= 10; i++) {
-    const key = `${prefix}.${i}`;
-    const title = $_(`${key}.title`);
-    const description = $_(`${key}.description`);
-    if (title !== key) { // Check if translation exists
-      result[i] = { title, description };
-    }
-  }
-  return result;
-}
-
-$: topIssues = issueOrder.slice(0, 10); // First 10 issues
-$: extendedIssues = issueOrder.slice(10); // Remaining issues
 </script>
 
 <Head
@@ -236,11 +258,11 @@ $: extendedIssues = issueOrder.slice(10); // Remaining issues
   <section class="py-16 bg-gray-50 dark:bg-gray-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <button
-        class="flex items-center gap-2 text-3xl font-bold text-gray-900 dark:text-white mb-12"
+        class="flex items-center gap-2 text-3xl font-bold text-gray-900 dark:text-white mb-12 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
         on:click={() => showExtendedList = !showExtendedList}
         aria-expanded={showExtendedList}
       >
-        {$_('issues.extended.title')}
+        {$_('issues.list_sections.extended_title')}
         <span class="text-blue-600 dark:text-blue-400">
           {#if showExtendedList}
             <ChevronDown size={24} />
@@ -253,23 +275,30 @@ $: extendedIssues = issueOrder.slice(10); // Remaining issues
       {#if showExtendedList}
         <div class="space-y-16">
           {#each categories as category}
-            <div>
-              <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">
-                {$_(category.title)}
-              </h3>
-              <div class="grid md:grid-cols-2 gap-6">
-                {#each Object.entries(category.challenges) as [key, challenge]}
-                  <div class="bg-white dark:bg-gray-900 rounded-lg p-6 hover:shadow-md transition-shadow">
-                    <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                      {challenge.title}
-                    </h4>
-                    <p class="text-gray-600 dark:text-gray-300">
-                      {challenge.description}
-                    </p>
-                  </div>
-                {/each}
+            {#if Object.keys(category.challenges).length > 0}
+              <div>
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-8">
+                  {$_(category.title)}
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                  {#each Object.entries(category.challenges) as [key, challenge]}
+                    <div class="bg-white dark:bg-gray-900 rounded-lg p-6 hover:shadow-md transition-shadow">
+                      <div class="flex items-start gap-3 mb-2">
+                        <span class="text-sm font-bold text-blue-600 dark:text-blue-400 bg-blue-100 dark:bg-blue-900 px-2 py-1 rounded">
+                          #{challenge.number}
+                        </span>
+                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white">
+                          {challenge.title}
+                        </h4>
+                      </div>
+                      <p class="text-gray-600 dark:text-gray-300 ml-12">
+                        {challenge.description}
+                      </p>
+                    </div>
+                  {/each}
+                </div>
               </div>
-            </div>
+            {/if}
           {/each}
         </div>
       {/if}
