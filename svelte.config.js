@@ -12,18 +12,24 @@ const config = {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: undefined, // Remove fallback for better GitHub Pages compatibility
+      fallback: undefined,
       precompress: false,
       strict: true
     }),
     prerender: {
-      entries: ['*'], // Prerender all pages
+      entries: ['*'],
       handleHttpError: ({ path, referrer, message }) => {
-        // Only throw for actual errors, not expected routing issues
-        if (message.includes('Not found') || path.includes('$')) {
+        // Only ignore specific expected routing issues
+        if (path.includes('/en/en/') || 
+            path.includes('/sv/sv/') ||
+            message.includes('404') && (path.includes('$') || path === '/')
+        ) {
+          console.warn(`Ignoring prerender error for ${path}: ${message}`);
           return;
         }
-        throw new Error(message);
+        
+        // Throw for other errors to help debug routing issues
+        throw new Error(`Prerender failed for ${path}: ${message}`);
       }
     }
   },
