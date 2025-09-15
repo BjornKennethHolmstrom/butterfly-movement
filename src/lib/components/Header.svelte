@@ -11,8 +11,8 @@
 
   let isMenuOpen = false;
 
-  // Get current language for navigation
-  $: currentLang = $language || 'en';
+  // Get current language - be more defensive about language detection
+  $: currentLang = $page.params.lang || $language || 'en';
 
   $: navItems = [
     { href: `${base}/${currentLang}`, label: 'nav.home' },
@@ -21,6 +21,17 @@
     { href: `${base}/${currentLang}/reflect`, label: 'nav.reflect' },
     { href: `${base}/${currentLang}/children`, label: 'nav.children' }
   ];
+
+  // Debug log to see what's happening
+  $: if (typeof window !== 'undefined') {
+    console.log('Header debug:', {
+      currentLang,
+      pageParams: $page.params,
+      languageStore: $language,
+      base,
+      sampleHref: `${base}/${currentLang}/issues`
+    });
+  }
 </script>
 
 <header class="bg-white dark:bg-gray-900 shadow-sm dark:shadow-gray-800">

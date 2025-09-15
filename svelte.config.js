@@ -19,14 +19,24 @@ const config = {
     prerender: {
       entries: ['*'],
       handleHttpError: ({ path, referrer, message }) => {
-        // Ignore malformed language URLs during build
+        // Ignore malformed URLs with $.
+        if (path.includes('$.') || path.includes('$./')) {
+          console.warn(`Ignoring malformed URL with $.: ${path}`);
+          return;
+        }
+        
+        // Ignore double language paths
         if (path.includes('/sv/en/') || 
             path.includes('/en/sv/') ||
             path.includes('/en/en/') ||
-            path.includes('/sv/sv/') ||
-            message.includes('does not begin with `base`')
-        ) {
+            path.includes('/sv/sv/')) {
           console.warn(`Ignoring malformed language URL: ${path}`);
+          return;
+        }
+        
+        // Ignore 404s for energy-transition
+        if (message.includes('404') && path.includes('/energy-transition')) {
+          console.warn(`Ignoring 404 for extended challenge: ${path}`);
           return;
         }
         
