@@ -19,16 +19,17 @@ const config = {
     prerender: {
       entries: ['*'],
       handleHttpError: ({ path, referrer, message }) => {
-        // Only ignore specific expected routing issues
-        if (path.includes('/en/en/') || 
+        // Ignore malformed language URLs during build
+        if (path.includes('/sv/en/') || 
+            path.includes('/en/sv/') ||
+            path.includes('/en/en/') ||
             path.includes('/sv/sv/') ||
-            message.includes('404') && (path.includes('$') || path === '/')
+            message.includes('does not begin with `base`')
         ) {
-          console.warn(`Ignoring prerender error for ${path}: ${message}`);
+          console.warn(`Ignoring malformed language URL: ${path}`);
           return;
         }
         
-        // Throw for other errors to help debug routing issues
         throw new Error(`Prerender failed for ${path}: ${message}`);
       }
     }
